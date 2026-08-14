@@ -15,6 +15,8 @@ fetch("data/managers.json")
             card.className = "manager-page-card";
 
             card.innerHTML = `
+                <img src="images/${manager.image}" alt="${manager.managerName}">
+    
                 <div class="manager-page-card-info">
                     <h2>${manager.managerName}</h2>
                     <p>${manager.teamName}</p>
