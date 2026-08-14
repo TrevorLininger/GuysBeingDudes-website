@@ -1,0 +1,62 @@
+[
+    {
+        "managerId": 1,
+        "managerName": "Lake Johnson",
+        "teamName": "Taco Corp"
+    },
+    {
+        "managerId": 2,
+        "managerName": "Jim Joyner",
+        "teamName": "Andy Reid Clock Managment"
+    },
+    {
+        "managerId": 3,
+        "managerName": "Ryker Johnson",
+        "teamName": "Bo-n*rs"
+    },
+    {
+        "managerId": 4,
+        "managerName": "Hayden Jenkins",
+        "teamName": "TD Milk"
+    },
+    {
+        "managerId": 5,
+        "managerName": "Nick Yarbrough",
+        "teamName": "Cousins Lover"
+    },
+    {
+        "managerId": 6,
+        "managerName": "Trevor Lininger",
+        "teamName": "TD's for Harambe"
+    },
+    {
+        "managerId": 7,
+        "managerName": "Wes Summers",
+        "teamName": "Dicked Down in Dallas"
+    },
+    {
+        "managerId": 8,
+        "managerName": "Kip Unruh",
+        "teamName": "Tune Squad"
+    },
+    {
+        "managerId": 9,
+        "managerName": "Justin Madsen",
+        "teamName": "Travis Swifties"
+    },
+    {
+        "managerId": 10,
+        "managerName": "Gage Kiesling",
+        "teamName": "Gage of Inches"
+    },
+    {
+        "managerId": 11,
+        "managerName": "Austin Chisam",
+        "teamName": "The Reid Rockets"
+    },
+    {
+        "managerId": 12,
+        "managerName": "Matt Bush",
+        "teamName": "That Was Legetteness"
+    }
+]

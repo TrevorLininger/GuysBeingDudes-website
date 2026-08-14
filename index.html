@@ -12,47 +12,193 @@
 <body>
 
    <header>
-    <img
-        src="images/GBD-logo.png"
-        alt="Guys Being Dudes Logo"
+
+    <nav class="navbar">
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="history.html">League History</a>
+            <a href="managers.html">Managers</a>
+            <a href="rivalries.html">Rivalries</a>
+            <a href="records.html">Records</a>
+        </div>
+
+    </nav>
+
+    <img 
+        src="images/gbd-logo2.png" 
+        alt="GBD Fantasy Football Logo"
         class="league-logo"
     >
-    <h1>Guys Being Dudes Fantasy Football</h1>
+
+    <h1>Guys Being Dudes Fantasy Football League</h1>
+
     <p>All-Time History</p>
+
 </header>
+
+<section class="champioship-section">
+    <div id="championship-wall"></div>
+</section>
 
 <main class="dashboard">
 
-    <div class="stat-container">
+    <section class="draft-info-section">
 
-        <div class="stat-card">
-            <h3>Championships</h3>
-            <div class="number">4</div>
+    <h2>Draft Info</h2>
+
+    <div class="draft-info-container">
+
+        <!-- LEFT COLUMN -->
+        <div class="draft-details">
+
+            <div class="draft-card">
+                <h3>Draft Date</h3>
+                <p>Sunday, August 30, 2026</p>
+                <span>3:25 PM</span>
+            </div>
+
+            <div class="draft-card countdown-card">
+                <h3>Countdown</h3>
+
+                <div id="draft-countdown">
+                    <div>
+                        <strong id="days">00</strong>
+                        <span>Days</span>
+                    </div>
+
+                    <div>
+                        <strong id="hours">00</strong>
+                        <span>Hours</span>
+                    </div>
+
+                    <div>
+                        <strong id="minutes">00</strong>
+                        <span>Minutes</span>
+                    </div>
+
+                    <div>
+                        <strong id="seconds">00</strong>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="draft-card">
+                <h3>Draft Location</h3>
+                 <img 
+                    src="images/transport.png" 
+                    alt="Transport Brewery"
+                    class="brewery-logo"
+                >
+                <p class="draft-location-city">Shawnee, KS</p>
+            </div>
+
         </div>
 
-        <div class="stat-card">
-            <h3>All-Time Wins</h3>
-            <div class="number">137</div>
-        </div>
 
-        <div class="stat-card">
-            <h3>Playoff Appearances</h3>
-            <div class="number">11</div>
+        <!-- RIGHT COLUMN -->
+        <div class="draft-order-card">
+
+            <h3>Draft Order</h3>
+
+            <ol>
+                <li>Hayden Jenkins</li>
+                <li>Ryker Johnson</li>
+                <li>Justin Madsen</li>
+                <li>Gage Kiesling</li>
+                <li>Nick Yarbrough</li>
+                <li>Wes Summers</li>
+                <li>Jim Joyner</li>
+                <li>Trevor Lininger</li>
+                <li>Kip Unruh</li>
+                <li>Matt Bush</li>
+                <li>Austin Chisam</li>
+                <li>Lake Johnson</li>
+            </ol>
+
         </div>
 
     </div>
 
-    <div class="section">
-        <h2>League Leaders</h2>
+</section>
 
-        <p>Championships: Trevor - 4</p>
-        <p>All-Time Wins: Trevor - 137</p>
-        <p>Highest Single Season Score: Trevor - 187.4</p>
     </div>
+
+    <section class="managers-section">
+
+    <h2>The League</h2>
+
+    <div class="manager-grid">
+
+        <a href="#" class="manager-card">
+            <img src="images/taco-lego2.jpg" alt="Manager 1">
+            <h3>Lake</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-clock.jpg" alt="Manager 2">
+            <h3>Jim</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-bo.jpg" alt="Manager 3">
+            <h3>Ryker</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-milk.jpg" alt="Manager 4">
+            <h3>Hayden</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-heart.png" alt="Manager 5">
+            <h3>Nick</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-gorilla.jpg" alt="Manager 6">
+            <h3>Trevor</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-cowboy.png" alt="Manager 7">
+            <h3>Wes</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-sj.png" alt="Manager 8">
+            <h3>Kip</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-ts.png" alt="Manager 9">
+            <h3>Justin</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-commish.png" alt="Manager 10">
+            <h3>Gage</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-rocket.png" alt="Manager 11">
+            <h3>Chisam</h3>
+        </a>
+
+        <a href="#" class="manager-card">
+            <img src="images/lego-panthers.png" alt="Manager 12">
+            <h3>Bush</h3>
+        </a>
+
+    </div>
+
+</section>
 
 </main>
 
     <script src="script.js"></script>
+    <script src="manager.js"></script>
 
 </body>
 </html>

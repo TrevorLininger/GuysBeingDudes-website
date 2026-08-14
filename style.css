@@ -1,3 +1,7 @@
+/* =========================
+   GLOBAL
+========================= */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -5,8 +9,13 @@ body {
     color: #222;
 }
 
+
+/* =========================
+   GENERAL HEADER
+========================= */
+
 header {
-    background-color: #1e293b;
+    background-color: #000000;
     color: white;
     padding: 30px;
     text-align: center;
@@ -22,8 +31,14 @@ header p {
     font-size: 18px;
 }
 
+
+/* =========================
+   HOMEPAGE / DASHBOARD
+========================= */
+
 .dashboard {
     max-width: 1100px;
+    width: 100%;
     margin: 30px auto;
     padding: 0 20px;
 }
@@ -62,4 +77,958 @@ header p {
 
 .section h2 {
     margin-top: 0;
+}
+
+
+/* =========================
+   HOMEPAGE LEAGUE LOGO
+========================= */
+
+.league-logo {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin-bottom: 15px;
+
+    filter: drop-shadow(
+        0 0 20px rgba(244, 118, 29, 0.8)
+    );
+
+    transition:
+        transform 0.25s ease,
+        filter 0.25s ease;
+}
+
+.league-logo:hover {
+    transform: scale(1.08);
+
+    filter: drop-shadow(
+        0 0 25px rgba(244, 118, 29, 0.9)
+    );
+}
+
+
+/* =========================
+   SIDE PAGE HEADER
+   Records / Rivalries / Managers
+========================= */
+
+.page-header {
+    background-color: #000;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px 30px;
+
+    flex-wrap: wrap;
+}
+
+
+/* Smaller logo used on side pages */
+
+.league-logo-page {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+
+    filter: drop-shadow(
+        0 0 15px rgba(244, 118, 29, 0.8)
+    );
+
+    transition:
+        transform 0.25s ease,
+        filter 0.25s ease;
+}
+
+.league-logo-page:hover {
+    transform: scale(1.08);
+
+    filter: drop-shadow(
+        0 0 20px rgba(244, 118, 29, 0.9)
+    );
+}
+
+
+/* Side page navigation */
+
+.page-header nav {
+    margin-left: auto;
+}
+
+.page-header .nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.page-header .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-header .nav-links a:hover {
+    color: #f4761d;
+}
+
+
+/* Side page title */
+
+.page-header-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.page-header-title h1 {
+    margin: 0;
+}
+
+.page-header-title p {
+    margin: 5px 0 0;
+}
+
+
+/* =========================
+   HOMEPAGE NAVIGATION
+========================= */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    max-width: 1100px;
+    margin: 0 auto;
+
+    padding: 15px 20px;
+}
+
+.nav-logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   CHAMPIONSHIP BANNERS
+========================= */
+
+.championship-section {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.championship-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#championship-wall {
+    display: flex;
+    gap: 20px;
+
+    overflow-x: auto;
+
+    padding: 20px 10px 30px;
+
+    justify-content: center;
+}
+
+.championship-banner {
+    flex: 0 0 150px;
+
+    min-height: 220px;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px 15px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transform-origin: top center;
+
+    animation: banner-wave 3s ease-in-out infinite;
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 90%,
+        75% 100%,
+        50% 90%,
+        25% 100%,
+        0 90%
+    );
+
+    position: relative;
+    isolation: isolate;
+}
+
+
+/* Alternating banner colors */
+
+.championship-banner:nth-child(odd) {
+    background-color: #000000;
+    color: white;
+}
+
+.championship-banner:nth-child(even) {
+    background-color: #f4761d;
+    color: white;
+}
+
+
+/* Banner animation */
+
+@keyframes banner-wave {
+
+    0% {
+        transform:
+            perspective(500px)
+            rotateY(0deg)
+            skewY(0deg);
+    }
+
+    25% {
+        transform:
+            perspective(500px)
+            rotateY(5deg)
+            skewY(1deg);
+    }
+
+    50% {
+        transform:
+            perspective(500px)
+            rotateY(0deg)
+            skewY(-1deg);
+    }
+
+    75% {
+        transform:
+            perspective(500px)
+            rotateY(-5deg)
+            skewY(1deg);
+    }
+
+    100% {
+        transform:
+            perspective(500px)
+            rotateY(0deg)
+            skewY(0deg);
+    }
+}
+
+
+/* Banner animation offsets */
+
+.championship-banner:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+.championship-banner:nth-child(3) {
+    animation-delay: -1s;
+}
+
+.championship-banner:nth-child(4) {
+    animation-delay: -1.5s;
+}
+
+.championship-banner:nth-child(5) {
+    animation-delay: -2s;
+}
+
+.championship-banner:nth-child(6) {
+    animation-delay: -2.5s;
+}
+
+.championship-banner:nth-child(7) {
+    animation-delay: -3s;
+}
+
+.championship-banner:nth-child(8) {
+    animation-delay: -3.5s;
+}
+
+.championship-banner:nth-child(9) {
+    animation-delay: -4s;
+}
+
+.championship-banner:nth-child(10) {
+    animation-delay: -4.5s;
+}
+
+
+/* Banner text */
+
+.banner-year {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.banner-title {
+    font-size: 13px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+.banner-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   RECORDS PAGE
+========================= */
+
+.records-page {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.records-page h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.records-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.record-card {
+    background-color: white;
+
+    border-radius: 10px;
+
+    padding: 30px 20px;
+
+    text-align: center;
+
+    min-height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.15);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.record-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 6px 15px rgba(244, 118, 29, 0.25);
+}
+
+.record-card h3 {
+    margin: 0 0 20px;
+    font-size: 18px;
+}
+
+.record-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #f4761d;
+}
+
+.record-card p {
+    margin: 8px 0 0;
+    font-weight: bold;
+}
+
+
+/* =========================
+   DRAFT INFO
+========================= */
+
+.draft-info-section {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.draft-info-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.draft-info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+/* Left side */
+
+.draft-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.draft-card {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.draft-card h3,
+.draft-order-card h3 {
+    margin-top: 0;
+
+    color: #f4761d;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+}
+
+.draft-card p {
+    font-size: 22px;
+    font-weight: bold;
+
+    margin: 10px 0 5px;
+}
+
+.draft-card span {
+    color: #666;
+}
+
+
+/* Countdown */
+
+.countdown-card {
+    flex: none;
+}
+
+#draft-countdown {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 20px;
+}
+
+#draft-countdown div {
+    display: flex;
+    flex-direction: column;
+}
+
+#draft-countdown strong {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#draft-countdown span {
+    font-size: 11px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+
+/* Draft order */
+
+.draft-order-card {
+    background-color: white;
+    color: black;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.draft-order-card h3 {
+    text-align: center;
+}
+
+.draft-order-card ol {
+    margin: 20px 0 0;
+    padding-left: 35px;
+}
+
+.draft-order-card li {
+    padding: 9px 0;
+
+    font-size: 17px;
+
+    border-bottom: 1px solid #333;
+}
+
+.draft-order-card li::marker {
+    color: #f4761d;
+    font-weight: bold;
+}
+
+
+/* Draft location */
+
+.brewery-logo {
+    width: 120px;
+    height: 120px;
+
+    object-fit: contain;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    filter: drop-shadow(
+        0 0 20px rgba(244, 33, 29, 0.8)
+    );
+}
+
+.draft-location-city {
+    margin: 8px 0 0;
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+    color: #666;
+}
+
+
+/* =========================
+   MANAGERS HOMEPAGE SECTION
+========================= */
+
+/*
+   These styles are for the manager
+   circles/grid that appear on the
+   HOMEPAGE.
+*/
+
+.managers-section {
+    max-width: 1150px;
+    width: 100%;
+
+    margin: 30px auto;
+
+    padding: 0 20px;
+
+    box-sizing: border-box;
+}
+
+.managers-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.manager-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 35px 25px;
+}
+
+.manager-card {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    color: #222;
+}
+
+.manager-card img {
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.manager-card h3 {
+    margin: 12px 0 0;
+
+    font-size: 18px;
+
+    text-align: center;
+}
+
+.manager-card:hover img {
+    transform: scale(1.06);
+
+    box-shadow:
+        0 0 20px rgba(244, 118, 29, 0.8);
+}
+
+.manager-card:hover h3 {
+    color: #f4761d;
+}
+
+
+/* =========================
+   MANAGERS PAGE
+========================= */
+
+.managers-grid {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 30px auto;
+}
+
+
+/* Individual horizontal manager card */
+
+.manager-page-card {
+    display: flex;
+
+    align-items: center;
+
+    width: 100%;
+
+    min-height: 200px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    text-align: left;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.15);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+    margin-bottom: 25px;
+}
+
+
+/* Manager profile picture */
+
+.manager-page-card > img {
+    width: 140px;
+    height: 140px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    flex-shrink: 0;
+
+    margin-left: 25px;
+}
+
+
+/* Manager information */
+
+.manager-page-card-info {
+    padding: 25px;
+
+    text-align: left;
+
+    flex: 1;
+}
+
+.manager-page-card-info a {
+    text-decoration: none;
+}
+
+.manager-page-card-info h2 {
+    margin: 0 0 8px;
+
+    color: #222;
+
+    font-size: 26px;
+
+    transition: color 0.2s ease;
+}
+
+.manager-page-card-info a:hover h2 {
+    color: #f4761d;
+}
+
+.manager-page-card-info p {
+    margin: 0;
+
+    color: #666;
+
+    font-size: 18px;
+}
+
+.manager-page-card-info p + p {
+    margin-top: 6px;
+}
+
+
+/* =========================
+   MANAGER TROPHIES
+========================= */
+
+.manager-trophies {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-top: 15px;
+}
+
+.manager-trophy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Actual trophy PNG */
+
+.manager-trophy img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    margin: 0;
+}
+
+
+/* Trophy year */
+
+.manager-trophy span {
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #222;
+}
+
+
+/* Trophy placement */
+
+.manager-trophy small {
+    margin-top: 2px;
+
+    font-size: 11px;
+
+    color: #666;
+}
+
+
+/* Manager card hover */
+
+.manager-page-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 6px 15px rgba(244, 118, 29, 0.25);
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    /* General */
+
+    header h1 {
+        font-size: 28px;
+    }
+
+
+    /* Homepage stats */
+
+    .stat-container {
+        flex-direction: column;
+    }
+
+    .stat-card {
+        width: auto;
+    }
+
+
+    /* Championship banners */
+
+    #championship-wall {
+        grid-template-columns: repeat(3, 150px);
+
+        gap: 15px;
+    }
+
+    #championship-wall .championship-banner:last-child {
+        grid-column: 2;
+    }
+
+
+    /* Records */
+
+    .records-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .record-card {
+        min-height: 160px;
+    }
+
+
+    /* Draft */
+
+    .draft-info-container {
+        grid-template-columns: 1fr;
+    }
+
+    #draft-countdown {
+        gap: 10px;
+    }
+
+    #draft-countdown strong {
+        font-size: 24px;
+    }
+
+    .draft-card p {
+        font-size: 19px;
+    }
+
+
+    /* Homepage manager circles */
+
+    .manager-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 30px 15px;
+    }
+
+    .manager-card img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .manager-card h3 {
+        font-size: 16px;
+    }
+
+
+    /* Managers page */
+
+    .managers-grid {
+        width: 90%;
+    }
+
+    .manager-page-card {
+        min-height: 150px;
+    }
+
+    .manager-page-card > img {
+        width: 100px;
+        height: 100px;
+
+        margin-left: 15px;
+    }
+
+    .manager-page-card-info {
+        padding: 20px;
+    }
+
+    .manager-page-card-info h2 {
+        font-size: 21px;
+    }
+
+    .manager-page-card-info p {
+        font-size: 16px;
+    }
+
+
+    /* Manager trophies */
+
+    .manager-trophies {
+        gap: 12px;
+
+        margin-top: 15px;
+    }
+
+    .manager-trophy img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .manager-trophy span {
+        font-size: 13px;
+    }
+
+    .manager-trophy small {
+        font-size: 10px;
+    }
+
+
+    /* Side page header */
+
+    .page-header {
+        padding: 10px 15px;
+    }
+
+    .league-logo-page {
+        width: 70px;
+        height: 70px;
+    }
+
+    .page-header nav {
+        margin-left: auto;
+    }
+
+    .page-header .nav-links {
+        gap: 15px;
+    }
+
+    .page-header .nav-links a {
+        font-size: 14px;
+    }
 }

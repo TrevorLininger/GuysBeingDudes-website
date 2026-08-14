@@ -1,0 +1,1126 @@
+{
+  "season": 2025,
+  "leagueName": "Guys Being Dudes",
+  "teams": [
+    {
+      "id": 1,
+      "name": "Gage  Of Inches",
+      "manager": "Gage Kiesling",
+      "abbreviation": "KIES",
+      "wins": 5,
+      "losses": 9,
+      "pointsFor": 1663.46
+    },
+    {
+      "id": 2,
+      "name": "Andy Reid Clock MGMT",
+      "manager": "Jim Joyner",
+      "abbreviation": "JOY",
+      "wins": 7,
+      "losses": 7,
+      "pointsFor": 1564.6
+    },
+    {
+      "id": 4,
+      "name": "The Reid Rockets",
+      "manager": "Austin Chisam",
+      "abbreviation": "Chis",
+      "wins": 5,
+      "losses": 9,
+      "pointsFor": 1482.92
+    },
+    {
+      "id": 5,
+      "name": "Taco Corp",
+      "manager": "Lake Johnson",
+      "abbreviation": "TACO",
+      "wins": 8,
+      "losses": 6,
+      "pointsFor": 1875.0800000000002
+    },
+    {
+      "id": 6,
+      "name": "Dicked Down in Dallas",
+      "manager": "Wes Summers",
+      "abbreviation": "DDD",
+      "wins": 5,
+      "losses": 9,
+      "pointsFor": 1652.44
+    },
+    {
+      "id": 7,
+      "name": "TD's for Harambe",
+      "manager": "Trevor Lininger",
+      "abbreviation": "DO4H",
+      "wins": 9,
+      "losses": 5,
+      "pointsFor": 1495.8600000000001
+    },
+    {
+      "id": 8,
+      "name": "Cousins  Lover",
+      "manager": "",
+      "abbreviation": "LOVE",
+      "wins": 8,
+      "losses": 6,
+      "pointsFor": 1660.2399999999998
+    },
+    {
+      "id": 9,
+      "name": "Travis Swifties",
+      "manager": "Justin Madsen",
+      "abbreviation": "MADS",
+      "wins": 6,
+      "losses": 8,
+      "pointsFor": 1508.4800000000002
+    },
+    {
+      "id": 10,
+      "name": "Bo-n*rs",
+      "manager": "Ryker Johnson",
+      "abbreviation": "BO",
+      "wins": 9,
+      "losses": 5,
+      "pointsFor": 1573.7399999999998
+    },
+    {
+      "id": 11,
+      "name": "Tune Squad",
+      "manager": "Kip Unruh",
+      "abbreviation": "POOh",
+      "wins": 5,
+      "losses": 9,
+      "pointsFor": 1560.42
+    },
+    {
+      "id": 12,
+      "name": "That Was Legetteness",
+      "manager": "Matt Bush",
+      "abbreviation": "BUSH",
+      "wins": 7,
+      "losses": 7,
+      "pointsFor": 1496.3999999999999
+    },
+    {
+      "id": 13,
+      "name": "TD Milk",
+      "manager": "Hayden Jenkins",
+      "abbreviation": "Milk",
+      "wins": 10,
+      "losses": 4,
+      "pointsFor": 1694.9999999999998
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 99.48,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 85.92,
+      "winner": "AWAY"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Dicked Down in Dallas",
+      "awayTeamId": 6,
+      "awayScore": 113.62,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 117.66,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 79.72,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 104.92,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 90.22,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 127.36,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 99.62,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 106.04,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 126.78,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 120.98,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Dicked Down in Dallas",
+      "awayTeamId": 6,
+      "awayScore": 131.58,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 88.38,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 108.98,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 149.34,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 93.1,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 87.2,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 125.54,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 113,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 118.02,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 141.4,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 120.04,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 89.14,
+      "winner": "AWAY"
+    },
+    {
+      "week": 3,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 115.42,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 129.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 136.52,
+      "homeTeam": "Dicked Down in Dallas",
+      "homeTeamId": 6,
+      "homeScore": 109.9,
+      "winner": "AWAY"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 86.98,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 135.76,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 140.42,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 134.42,
+      "winner": "AWAY"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 115.94,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 99.84,
+      "winner": "AWAY"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 119.62,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 83.92,
+      "winner": "AWAY"
+    },
+    {
+      "week": 4,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 111.62,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 112.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 98.12,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 129.68,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Dicked Down in Dallas",
+      "awayTeamId": 6,
+      "awayScore": 114.02,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 176.16,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 130.9,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 101.6,
+      "winner": "AWAY"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 94.58,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 136.24,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 143.84,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 108.46,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 126.48,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 92.84,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 195.46,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 122.2,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 84.5,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 136.62,
+      "winner": "HOME"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 132.48,
+      "homeTeam": "Dicked Down in Dallas",
+      "homeTeamId": 6,
+      "homeScore": 95.94,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 143.22,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 93.02,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 122.72,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 125.5,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 159.44,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 100.56,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 141.14,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 88.34,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 128.54,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 78.56,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 100.24,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 108.3,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Dicked Down in Dallas",
+      "awayTeamId": 6,
+      "awayScore": 124.76,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 111,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 114.88,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 81.64,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 103.76,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 125.14,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 120.18,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 103.82,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 169.72,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 121.94,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 88.94,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 105.08,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 110.46,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 135.64,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 121.74,
+      "homeTeam": "Dicked Down in Dallas",
+      "homeTeamId": 6,
+      "homeScore": 102.6,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 117.38,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 117.18,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 156.86,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 141.48,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 104.48,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 137.62,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 85.92,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 108.82,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 88.08,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 62.16,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 164.66,
+      "homeTeam": "Dicked Down in Dallas",
+      "homeTeamId": 6,
+      "homeScore": 104.08,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 89.38,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 108.32,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 146.64,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 137.9,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 156.24,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 114.44,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 111.6,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 160.2,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Dicked Down in Dallas",
+      "awayTeamId": 6,
+      "awayScore": 143.2,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 119.02,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 87.72,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 89.96,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 112.08,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 101.8,
+      "winner": "AWAY"
+    },
+    {
+      "week": 10,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 123.54,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 96.14,
+      "winner": "AWAY"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 121.8,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 98.98,
+      "winner": "AWAY"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 125.62,
+      "homeTeam": "Dicked Down in Dallas",
+      "homeTeamId": 6,
+      "homeScore": 131.9,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 112.92,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 151.3,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 92.76,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 108.1,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 99.26,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 73.02,
+      "winner": "AWAY"
+    },
+    {
+      "week": 11,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 86.14,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 109.06,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Dicked Down in Dallas",
+      "awayTeamId": 6,
+      "awayScore": 142.24,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 145.58,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 85.04,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 69.82,
+      "winner": "AWAY"
+    },
+    {
+      "week": 11,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 134.04,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 125.7,
+      "winner": "AWAY"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 161.58,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 107.92,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 115.58,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 107.04,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 121.12,
+      "homeTeam": "Dicked Down in Dallas",
+      "homeTeamId": 6,
+      "homeScore": 119.02,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 119.92,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 81.9,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 110.52,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 96.46,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 108.86,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 120.68,
+      "winner": "HOME"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 168.66,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 112.34,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 116.54,
+      "homeTeam": "Dicked Down in Dallas",
+      "homeTeamId": 6,
+      "homeScore": 119.22,
+      "winner": "HOME"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 93.04,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 148.54,
+      "winner": "HOME"
+    },
+    {
+      "week": 13,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 92.98,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 80.54,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 120.64,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 114.76,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 83.56,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 109.02,
+      "winner": "HOME"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 89.8,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 108.54,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 71.48,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 104.86,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Dicked Down in Dallas",
+      "awayTeamId": 6,
+      "awayScore": 100.36,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 104.86,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 82.2,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 74.62,
+      "winner": "AWAY"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 115.24,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 150.18,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 123.36,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 156.74,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 97.54,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 96.28,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 108.84,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 149.98,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 137.72,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 92.4,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 110.9,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 94.46,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Dicked Down in Dallas",
+      "awayTeamId": 6,
+      "awayScore": 126.7,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 103.62,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 98.34,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 165.24,
+      "winner": "HOME"
+    },
+    {
+      "week": 16,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 149.7,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 69.3,
+      "winner": "AWAY"
+    },
+    {
+      "week": 16,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 151.16,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 107.88,
+      "winner": "AWAY"
+    },
+    {
+      "week": 16,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 111.22,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 130.6,
+      "winner": "HOME"
+    },
+    {
+      "week": 16,
+      "awayTeam": "Dicked Down in Dallas",
+      "awayTeamId": 6,
+      "awayScore": 134.5,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 105.24,
+      "winner": "AWAY"
+    },
+    {
+      "week": 16,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 103.5,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 76.8,
+      "winner": "AWAY"
+    },
+    {
+      "week": 16,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 96.38,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 126.7,
+      "winner": "HOME"
+    },
+    {
+      "week": 17,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 71.28,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 109.72,
+      "winner": "HOME"
+    },
+    {
+      "week": 17,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 162.1,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 149.68,
+      "winner": "AWAY"
+    },
+    {
+      "week": 17,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 96.78,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 88.24,
+      "winner": "AWAY"
+    },
+    {
+      "week": 17,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 110.8,
+      "homeTeam": "Dicked Down in Dallas",
+      "homeTeamId": 6,
+      "homeScore": 112.04,
+      "winner": "HOME"
+    },
+    {
+      "week": 17,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 71.6,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 100.18,
+      "winner": "HOME"
+    },
+    {
+      "week": 17,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 96.38,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 67.9,
+      "winner": "AWAY"
+    }
+  ]
+}
