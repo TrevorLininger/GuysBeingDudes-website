@@ -2,61 +2,73 @@
     {
         "managerId": 1,
         "managerName": "Lake Johnson",
-        "teamName": "Taco Corp"
+        "teamName": "Taco Corp",
+        "image": "taco-lego2.jpg"
     },
     {
         "managerId": 2,
         "managerName": "Jim Joyner",
-        "teamName": "Andy Reid Clock Managment"
+        "teamName": "Andy Reid Clock Managment",
+        "image": "lego-clock.jpg"
     },
     {
         "managerId": 3,
         "managerName": "Ryker Johnson",
-        "teamName": "Bo-n*rs"
+        "teamName": "Bo-n*rs",
+        "image": "lego-bo.jpg"
     },
     {
         "managerId": 4,
         "managerName": "Hayden Jenkins",
-        "teamName": "TD Milk"
+        "teamName": "TD Milk",
+        "image": "lego-milk.jpg"
     },
     {
         "managerId": 5,
         "managerName": "Nick Yarbrough",
-        "teamName": "Cousins Lover"
+        "teamName": "Cousins Lover",
+        "image": "lego-heart.png"
     },
     {
         "managerId": 6,
         "managerName": "Trevor Lininger",
-        "teamName": "TD's for Harambe"
+        "teamName": "TD's for Harambe",
+        "image": "lego-gorilla.jpg"
     },
     {
         "managerId": 7,
         "managerName": "Wes Summers",
-        "teamName": "Dicked Down in Dallas"
+        "teamName": "Dicked Down in Dallas",
+        "image": "lego-cowboy.png"
     },
     {
         "managerId": 8,
         "managerName": "Kip Unruh",
-        "teamName": "Tune Squad"
+        "teamName": "Tune Squad",
+        "image": "lego-ts.png"
     },
     {
         "managerId": 9,
         "managerName": "Justin Madsen",
-        "teamName": "Travis Swifties"
+        "teamName": "Travis Swifties",
+        "image": "lego-ts.png"
     },
     {
         "managerId": 10,
         "managerName": "Gage Kiesling",
-        "teamName": "Gage of Inches"
+        "teamName": "Gage of Inches",
+        "image": "lego-commish.png"
     },
     {
         "managerId": 11,
         "managerName": "Austin Chisam",
-        "teamName": "The Reid Rockets"
+        "teamName": "The Reid Rockets",
+        "image": "lego-rocket.png"
     },
     {
         "managerId": 12,
         "managerName": "Matt Bush",
-        "teamName": "That Was Legetteness"
+        "teamName": "That Was Legetteness",
+        "image": "lego-panthers.png"
     }
 ]
