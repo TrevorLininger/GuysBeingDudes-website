@@ -27,3 +27,5 @@ fetch("data/managers.json")
     .catch(error => {
         console.error("ERROR LOADING MANAGERS:", error);
     });
+
+    const container = document.getElementById("managers-container");
