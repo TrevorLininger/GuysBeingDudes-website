@@ -1,53 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<main id="manager-profile">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>GBD Fantasy Football - Manager</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <header>
-
-        <nav class="navbar">
-
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="history.html">League History</a>
-                <a href="managers.html">Managers</a>
-                <a href="rivalries.html">Rivalries</a>
-                <a href="records.html">Records</a>
-            </div>
-
-        </nav>
-
-        <a href="index.html">
-            <img 
-                src="images/gbd-logo2.png" 
-                alt="GBD Fantasy Football Logo"
-                class="league-logo-page"
-            >
-        </a>
-
-    </header>
-
-    <main id="manager-profile">
-
+    <!-- Manager Header -->
     <section class="manager-profile-header">
 
-        <img
-            id="manager-image"
-            src=""
-            alt=""
-            class="manager-profile-image"
-        >
+        <div class="manager-profile-title">
 
-        <div class="manager-profile-header-info">
+            <p class="manager-profile-label">GUYS BEING DUDES</p>
 
             <h1 id="manager-name">Loading...</h1>
 
@@ -58,35 +16,120 @@
     </section>
 
 
-    <section class="manager-career-stats">
+    <!-- Career Overview -->
+    <section class="manager-overview">
 
-        <div class="career-stat-card">
-            <h3>Championships</h3>
-            <p id="championships">-</p>
+        <div class="manager-stat-card manager-stat-card-highlight">
+            <span class="manager-stat-label">CHAMPIONSHIPS</span>
+            <span class="manager-stat-value" id="championships">-</span>
         </div>
 
-        <div class="career-stat-card">
-            <h3>Career Record</h3>
-            <p id="career-record">-</p>
+        <div class="manager-stat-card">
+            <span class="manager-stat-label">CAREER RECORD</span>
+            <span class="manager-stat-value" id="career-record">-</span>
         </div>
 
-        <div class="career-stat-card">
-            <h3>Best Season</h3>
-            <p id="best-season">-</p>
+        <div class="manager-stat-card">
+            <span class="manager-stat-label">BEST SEASON</span>
+            <span class="manager-stat-value" id="best-season">-</span>
         </div>
 
-        <div class="career-stat-card">
-            <h3>Career Points</h3>
-            <p id="career-points">-</p>
+        <div class="manager-stat-card">
+            <span class="manager-stat-label">CAREER POINTS</span>
+            <span class="manager-stat-value" id="career-points">-</span>
+        </div>
+
+    </section>
+
+
+    <!-- Career Highlights -->
+    <section class="manager-section">
+
+        <div class="manager-section-heading">
+
+            <h2>Career Highlights</h2>
+
+            <div class="manager-section-line"></div>
+
+        </div>
+
+
+        <div class="manager-highlights-grid">
+
+            <div class="manager-highlight-card">
+
+                <span class="manager-highlight-label">
+                    HIGHEST SCORE
+                </span>
+
+                <strong id="highest-score">-</strong>
+
+                <span id="highest-score-detail"></span>
+
+            </div>
+
+
+            <div class="manager-highlight-card">
+
+                <span class="manager-highlight-label">
+                    LOWEST SCORE
+                </span>
+
+                <strong id="lowest-score">-</strong>
+
+                <span id="lowest-score-detail"></span>
+
+            </div>
+
+
+            <div class="manager-highlight-card">
+
+                <span class="manager-highlight-label">
+                    BIGGEST WIN
+                </span>
+
+                <strong id="biggest-win">-</strong>
+
+                <span id="biggest-win-detail"></span>
+
+            </div>
+
+
+            <div class="manager-highlight-card">
+
+                <span class="manager-highlight-label">
+                    WORST LOSS
+                </span>
+
+                <strong id="worst-loss">-</strong>
+
+                <span id="worst-loss-detail"></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Season History -->
+    <section class="manager-section">
+
+        <div class="manager-section-heading">
+
+            <h2>Season History</h2>
+
+            <div class="manager-section-line"></div>
+
+        </div>
+
+
+        <div class="manager-season-history" id="season-history">
+
+            <!-- Seasons will be inserted here -->
+
         </div>
 
     </section>
 
 </main>
-
-    <script src="js/manager-stats-browser.js"></script>
-    <script src="js/manager-profile.js"></script>
-
-</body>
-
-</html>
