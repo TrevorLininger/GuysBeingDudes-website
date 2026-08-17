@@ -1,0 +1,898 @@
+{
+  "season": 2020,
+  "leagueName": "Guys Being Dudes",
+  "teams": [
+    {
+      "id": 1,
+      "name": "Gage  Of Inches",
+      "manager": "Gage Kiesling",
+      "abbreviation": "KIES",
+      "wins": 6,
+      "losses": 7,
+      "pointsFor": 1528.76,
+      "managerId": 10
+    },
+    {
+      "id": 2,
+      "name": "Andy Reid Clock MGMT",
+      "manager": "Jim Joyner",
+      "abbreviation": "JOYN",
+      "wins": 8,
+      "losses": 5,
+      "pointsFor": 1792.4199999999998,
+      "managerId": 2
+    },
+    {
+      "id": 3,
+      "name": "Team E. Jacksulation",
+      "manager": "",
+      "abbreviation": "EJ",
+      "wins": 7,
+      "losses": 6,
+      "pointsFor": 1596.8400000000001,
+      "managerId": 13
+    },
+    {
+      "id": 4,
+      "name": "The Reid Rockets",
+      "manager": "Austin Chisam",
+      "abbreviation": "Chis",
+      "wins": 7,
+      "losses": 6,
+      "pointsFor": 1618.1,
+      "managerId": 11
+    },
+    {
+      "id": 5,
+      "name": "Taco Corp",
+      "manager": "Lake Johnson",
+      "abbreviation": "TACO",
+      "wins": 6,
+      "losses": 7,
+      "pointsFor": 1387.0799999999997,
+      "managerId": 1
+    },
+    {
+      "id": 6,
+      "name": "Chubby Daks",
+      "manager": "",
+      "abbreviation": "NUT",
+      "wins": 7,
+      "losses": 6,
+      "pointsFor": 1750.4999999999998,
+      "managerId": 7
+    },
+    {
+      "id": 7,
+      "name": "TD's for Harambe",
+      "manager": "Trevor Lininger",
+      "abbreviation": "DO4H",
+      "wins": 7,
+      "losses": 6,
+      "pointsFor": 1648.6,
+      "managerId": 6
+    },
+    {
+      "id": 8,
+      "name": "Cousins  Lover",
+      "manager": "",
+      "abbreviation": "LOVE",
+      "wins": 7,
+      "losses": 6,
+      "pointsFor": 1568.32,
+      "managerId": 5
+    },
+    {
+      "id": 9,
+      "name": "TomBucsHisKids ***",
+      "manager": "",
+      "abbreviation": "MADS",
+      "wins": 5,
+      "losses": 8,
+      "pointsFor": 1487.6800000000003,
+      "managerId": 9
+    },
+    {
+      "id": 10,
+      "name": "Kicking and Kareeming",
+      "manager": "",
+      "abbreviation": "KK",
+      "wins": 5,
+      "losses": 8,
+      "pointsFor": 1541.54,
+      "managerId": 3
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "awayTeam": "Chubby Daks",
+      "awayTeamId": 6,
+      "awayScore": 107.54,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 153.7,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 156.72,
+      "homeTeam": "Team E. Jacksulation",
+      "homeTeamId": 3,
+      "homeScore": 130.3,
+      "winner": "AWAY"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 121.78,
+      "homeTeam": "Kicking and Kareeming",
+      "homeTeamId": 10,
+      "homeScore": 163.06,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 108.5,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 119.28,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 136.24,
+      "homeTeam": "TomBucsHisKids ***",
+      "homeTeamId": 9,
+      "homeScore": 137.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 151.1,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 142.28,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 126.86,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 154.98,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Chubby Daks",
+      "awayTeamId": 6,
+      "awayScore": 178.7,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 130.38,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Team E. Jacksulation",
+      "awayTeamId": 3,
+      "awayScore": 115.24,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 111.72,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Kicking and Kareeming",
+      "awayTeamId": 10,
+      "awayScore": 92.98,
+      "homeTeam": "TomBucsHisKids ***",
+      "homeTeamId": 9,
+      "homeScore": 172.26,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 142,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 137.88,
+      "winner": "AWAY"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 123.2,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 115.46,
+      "winner": "AWAY"
+    },
+    {
+      "week": 3,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 136.6,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 159.04,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Team E. Jacksulation",
+      "awayTeamId": 3,
+      "awayScore": 120,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 96.48,
+      "winner": "AWAY"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Kicking and Kareeming",
+      "awayTeamId": 10,
+      "awayScore": 106.72,
+      "homeTeam": "Chubby Daks",
+      "homeTeamId": 6,
+      "homeScore": 178.18,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 145.44,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 87.28,
+      "winner": "AWAY"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 93.3,
+      "homeTeam": "Team E. Jacksulation",
+      "homeTeamId": 3,
+      "homeScore": 152.92,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 87.04,
+      "homeTeam": "Kicking and Kareeming",
+      "homeTeamId": 10,
+      "homeScore": 162.26,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 118,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 106.98,
+      "winner": "AWAY"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 139.02,
+      "homeTeam": "Chubby Daks",
+      "homeTeamId": 6,
+      "homeScore": 174.48,
+      "winner": "HOME"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Kicking and Kareeming",
+      "awayTeamId": 10,
+      "awayScore": 141.02,
+      "homeTeam": "Team E. Jacksulation",
+      "homeTeamId": 3,
+      "homeScore": 141.6,
+      "winner": "HOME"
+    },
+    {
+      "week": 5,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 106,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 90.28,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Chubby Daks",
+      "awayTeamId": 6,
+      "awayScore": 117.24,
+      "homeTeam": "TomBucsHisKids ***",
+      "homeTeamId": 9,
+      "homeScore": 113.26,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 147.76,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 111.74,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 112.72,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 159,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 139.4,
+      "homeTeam": "Chubby Daks",
+      "homeTeamId": 6,
+      "homeScore": 109.24,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 90.88,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 94.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 97.92,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 171.7,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Team E. Jacksulation",
+      "awayTeamId": 3,
+      "awayScore": 160.22,
+      "homeTeam": "TomBucsHisKids ***",
+      "homeTeamId": 9,
+      "homeScore": 94.48,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 97.94,
+      "homeTeam": "Kicking and Kareeming",
+      "homeTeamId": 10,
+      "homeScore": 112.64,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Chubby Daks",
+      "awayTeamId": 6,
+      "awayScore": 134.32,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 203.32,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 98.78,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 144.02,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 100.6,
+      "homeTeam": "Team E. Jacksulation",
+      "homeTeamId": 3,
+      "homeScore": 132.2,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 129.22,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 143.32,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Kicking and Kareeming",
+      "awayTeamId": 10,
+      "awayScore": 70.96,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 110.96,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 95.68,
+      "homeTeam": "Chubby Daks",
+      "homeTeamId": 6,
+      "homeScore": 138.34,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Team E. Jacksulation",
+      "awayTeamId": 3,
+      "awayScore": 119.02,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 134.76,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 112.14,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 114.64,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 138.4,
+      "homeTeam": "TomBucsHisKids ***",
+      "homeTeamId": 9,
+      "homeScore": 69.88,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 116.34,
+      "homeTeam": "Kicking and Kareeming",
+      "homeTeamId": 10,
+      "homeScore": 82.66,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Chubby Daks",
+      "awayTeamId": 6,
+      "awayScore": 117.84,
+      "homeTeam": "Team E. Jacksulation",
+      "homeTeamId": 3,
+      "homeScore": 140.52,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 106.76,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 128.8,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Kicking and Kareeming",
+      "awayTeamId": 10,
+      "awayScore": 96.36,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 146.1,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 84.6,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 181.54,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 98.04,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 101.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 97.06,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 129.3,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Team E. Jacksulation",
+      "awayTeamId": 3,
+      "awayScore": 117.9,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 141.32,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 100.58,
+      "homeTeam": "Chubby Daks",
+      "homeTeamId": 6,
+      "homeScore": 133.38,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 94.78,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 70.72,
+      "winner": "AWAY"
+    },
+    {
+      "week": 10,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 85.94,
+      "homeTeam": "Kicking and Kareeming",
+      "homeTeamId": 10,
+      "homeScore": 139.06,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 157.84,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 135.62,
+      "winner": "AWAY"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 123.28,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 94.84,
+      "winner": "AWAY"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 85,
+      "homeTeam": "TomBucsHisKids ***",
+      "homeTeamId": 9,
+      "homeScore": 96.38,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 118,
+      "homeTeam": "Team E. Jacksulation",
+      "homeTeamId": 3,
+      "homeScore": 80.56,
+      "winner": "AWAY"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Chubby Daks",
+      "awayTeamId": 6,
+      "awayScore": 155.24,
+      "homeTeam": "Kicking and Kareeming",
+      "homeTeamId": 10,
+      "homeScore": 126.14,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 77.9,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 112.5,
+      "winner": "HOME"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 123.12,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 126.8,
+      "winner": "HOME"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Kicking and Kareeming",
+      "awayTeamId": 10,
+      "awayScore": 144.8,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 147.58,
+      "winner": "HOME"
+    },
+    {
+      "week": 12,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 104.14,
+      "homeTeam": "Team E. Jacksulation",
+      "homeTeamId": 3,
+      "homeScore": 93.4,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Chubby Daks",
+      "awayTeamId": 6,
+      "awayScore": 82.94,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 125.68,
+      "winner": "HOME"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Kicking and Kareeming",
+      "awayTeamId": 10,
+      "awayScore": 102.88,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 71.36,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Team E. Jacksulation",
+      "awayTeamId": 3,
+      "awayScore": 92.96,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 120.72,
+      "winner": "HOME"
+    },
+    {
+      "week": 13,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 130.5,
+      "homeTeam": "Chubby Daks",
+      "homeTeamId": 6,
+      "homeScore": 123.06,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 217.6,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 141.84,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 99.22,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 102.5,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Team E. Jacksulation",
+      "awayTeamId": 3,
+      "awayScore": 121.46,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 158.8,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 120.78,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 163.12,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 81.96,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 115.14,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 109.98,
+      "homeTeam": "Kicking and Kareeming",
+      "homeTeamId": 10,
+      "homeScore": 124.22,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 135.52,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 167.42,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 138.76,
+      "homeTeam": "Chubby Daks",
+      "homeTeamId": 6,
+      "homeScore": 104.86,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 114.76,
+      "homeTeam": "Team E. Jacksulation",
+      "homeTeamId": 3,
+      "homeScore": 145.24,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Kicking and Kareeming",
+      "awayTeamId": 10,
+      "awayScore": 132.22,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 111.54,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 118.4,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 107.16,
+      "winner": "AWAY"
+    },
+    {
+      "week": 16,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 106.02,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 170.86,
+      "winner": "HOME"
+    },
+    {
+      "week": 16,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 131.94,
+      "homeTeam": "Chubby Daks",
+      "homeTeamId": 6,
+      "homeScore": 160.02,
+      "winner": "HOME"
+    },
+    {
+      "week": 16,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 130.3,
+      "homeTeam": "Team E. Jacksulation",
+      "homeTeamId": 3,
+      "homeScore": 128.08,
+      "winner": "AWAY"
+    },
+    {
+      "week": 16,
+      "awayTeam": "TomBucsHisKids ***",
+      "awayTeamId": 9,
+      "awayScore": 87.94,
+      "homeTeam": "Kicking and Kareeming",
+      "homeTeamId": 10,
+      "homeScore": 112.92,
+      "winner": "HOME"
+    },
+    {
+      "week": 16,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 99.8,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 120.68,
+      "winner": "HOME"
+    }
+  ]
+}

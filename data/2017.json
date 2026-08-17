@@ -1,0 +1,848 @@
+{
+  "season": 2017,
+  "leagueName": "Guys Being Dudes",
+  "teams": [
+    {
+      "id": 1,
+      "name": "Real Slim Brady",
+      "managerId": 10,
+      "abbreviation": "KIES",
+      "wins": 10,
+      "losses": 3,
+      "pointsFor": 1802.1799999999996
+    },
+    {
+      "id": 2,
+      "name": "Andy Reid Clock MGMT",
+      "managerId": 2,
+      "abbreviation": "JOYN",
+      "wins": 8,
+      "losses": 5,
+      "pointsFor": 1543.7800000000002
+    },
+    {
+      "id": 3,
+      "name": "Sammie's Last Ride",
+      "managerId": 14,
+      "abbreviation": "Sam",
+      "wins": 8,
+      "losses": 5,
+      "pointsFor": 1689.8200000000002
+    },
+    {
+      "id": 4,
+      "name": "Kareem On Your Gurley",
+      "managerId": 15,
+      "abbreviation": "VRED",
+      "wins": 8,
+      "losses": 5,
+      "pointsFor": 1643.06
+    },
+    {
+      "id": 5,
+      "name": "Taco Corp",
+      "managerId": 1,
+      "abbreviation": "TACO",
+      "wins": 4,
+      "losses": 9,
+      "pointsFor": 1398.26
+    },
+    {
+      "id": 6,
+      "name": "King of the WESt",
+      "managerId": 7,
+      "abbreviation": "ð»",
+      "wins": 7,
+      "losses": 6,
+      "pointsFor": 1554.1599999999999
+    },
+    {
+      "id": 7,
+      "name": "TD's for Harambe",
+      "managerId": 6,
+      "abbreviation": "DO4H",
+      "wins": 9,
+      "losses": 4,
+      "pointsFor": 1615.7600000000002
+    },
+    {
+      "id": 8,
+      "name": "Cry Me A Rivers",
+      "managerId": 5,
+      "abbreviation": "YARB",
+      "wins": 5,
+      "losses": 8,
+      "pointsFor": 1416.2000000000003
+    },
+    {
+      "id": 9,
+      "name": "Team All my fri ends aremarried",
+      "managerId": 9,
+      "abbreviation": "MADS",
+      "wins": 3,
+      "losses": 10,
+      "pointsFor": 1419.74
+    },
+    {
+      "id": 10,
+      "name": "Joe Mixon's Right Hooks",
+      "managerId": 3,
+      "abbreviation": "JMRH",
+      "wins": 3,
+      "losses": 10,
+      "pointsFor": 1232.46
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "awayTeam": "King of the WESt",
+      "awayTeamId": 6,
+      "awayScore": 123.52,
+      "homeTeam": "Kareem On Your Gurley",
+      "homeTeamId": 4,
+      "homeScore": 126.04,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 137.24,
+      "homeTeam": "Sammie's Last Ride",
+      "homeTeamId": 3,
+      "homeScore": 90.84,
+      "winner": "AWAY"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Cry Me A Rivers",
+      "awayTeamId": 8,
+      "awayScore": 94.28,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 106.36,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Real Slim Brady",
+      "awayTeamId": 1,
+      "awayScore": 96.98,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 129.74,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 81.92,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 126.2,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Cry Me A Rivers",
+      "awayTeamId": 8,
+      "awayScore": 79.44,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 100.02,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Kareem On Your Gurley",
+      "awayTeamId": 4,
+      "awayScore": 105.4,
+      "homeTeam": "Real Slim Brady",
+      "homeTeamId": 1,
+      "homeScore": 127.98,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "King of the WESt",
+      "awayTeamId": 6,
+      "awayScore": 121.44,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 130.92,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Sammie's Last Ride",
+      "awayTeamId": 3,
+      "awayScore": 157.74,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 103.42,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 98.3,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 143.76,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 121.56,
+      "homeTeam": "Real Slim Brady",
+      "homeTeamId": 1,
+      "homeScore": 155.22,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 84.82,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 111.26,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 132.4,
+      "homeTeam": "Cry Me A Rivers",
+      "homeTeamId": 8,
+      "homeScore": 136.58,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Sammie's Last Ride",
+      "awayTeamId": 3,
+      "awayScore": 119.3,
+      "homeTeam": "Kareem On Your Gurley",
+      "homeTeamId": 4,
+      "homeScore": 136.9,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 95.22,
+      "homeTeam": "King of the WESt",
+      "homeTeamId": 6,
+      "homeScore": 91,
+      "winner": "AWAY"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 101.24,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 133.66,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Real Slim Brady",
+      "awayTeamId": 1,
+      "awayScore": 130.08,
+      "homeTeam": "Sammie's Last Ride",
+      "homeTeamId": 3,
+      "homeScore": 118.52,
+      "winner": "AWAY"
+    },
+    {
+      "week": 4,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 115.1,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 68.68,
+      "winner": "AWAY"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 115.58,
+      "homeTeam": "Kareem On Your Gurley",
+      "homeTeamId": 4,
+      "homeScore": 140.24,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Cry Me A Rivers",
+      "awayTeamId": 8,
+      "awayScore": 120.18,
+      "homeTeam": "King of the WESt",
+      "homeTeamId": 6,
+      "homeScore": 134.12,
+      "winner": "HOME"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 116.44,
+      "homeTeam": "Sammie's Last Ride",
+      "homeTeamId": 3,
+      "homeScore": 145.6,
+      "winner": "HOME"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Kareem On Your Gurley",
+      "awayTeamId": 4,
+      "awayScore": 77.02,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 113.84,
+      "winner": "HOME"
+    },
+    {
+      "week": 5,
+      "awayTeam": "King of the WESt",
+      "awayTeamId": 6,
+      "awayScore": 182.76,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 78.08,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 96.8,
+      "homeTeam": "Real Slim Brady",
+      "homeTeamId": 1,
+      "homeScore": 113.52,
+      "winner": "HOME"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Cry Me A Rivers",
+      "awayTeamId": 8,
+      "awayScore": 107.54,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 115.52,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 136.62,
+      "homeTeam": "King of the WESt",
+      "homeTeamId": 6,
+      "homeScore": 102.84,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Real Slim Brady",
+      "awayTeamId": 1,
+      "awayScore": 116.28,
+      "homeTeam": "Cry Me A Rivers",
+      "homeTeamId": 8,
+      "homeScore": 127.22,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 87.12,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 163.18,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Sammie's Last Ride",
+      "awayTeamId": 3,
+      "awayScore": 120.44,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 97.1,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Kareem On Your Gurley",
+      "awayTeamId": 4,
+      "awayScore": 124.26,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 93.7,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "awayTeam": "King of the WESt",
+      "awayTeamId": 6,
+      "awayScore": 77.28,
+      "homeTeam": "Real Slim Brady",
+      "homeTeamId": 1,
+      "homeScore": 149.06,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Cry Me A Rivers",
+      "awayTeamId": 8,
+      "awayScore": 121.06,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 112.12,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 128.06,
+      "homeTeam": "Sammie's Last Ride",
+      "homeTeamId": 3,
+      "homeScore": 110.14,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 84.22,
+      "homeTeam": "Kareem On Your Gurley",
+      "homeTeamId": 4,
+      "homeScore": 180.2,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 73.52,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 163.22,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 104.4,
+      "homeTeam": "King of the WESt",
+      "homeTeamId": 6,
+      "homeScore": 141.28,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Sammie's Last Ride",
+      "awayTeamId": 3,
+      "awayScore": 129.46,
+      "homeTeam": "Cry Me A Rivers",
+      "homeTeamId": 8,
+      "homeScore": 100.42,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Kareem On Your Gurley",
+      "awayTeamId": 4,
+      "awayScore": 103.98,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 155.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 118.84,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 94.02,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Real Slim Brady",
+      "awayTeamId": 1,
+      "awayScore": 124.12,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 102.28,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "King of the WESt",
+      "awayTeamId": 6,
+      "awayScore": 114.12,
+      "homeTeam": "Sammie's Last Ride",
+      "homeTeamId": 3,
+      "homeScore": 96.32,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 60.9,
+      "homeTeam": "Kareem On Your Gurley",
+      "homeTeamId": 4,
+      "homeScore": 170.74,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 109.26,
+      "homeTeam": "Cry Me A Rivers",
+      "homeTeamId": 8,
+      "homeScore": 116.26,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Real Slim Brady",
+      "awayTeamId": 1,
+      "awayScore": 141,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 112.58,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 88.08,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 132.68,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Cry Me A Rivers",
+      "awayTeamId": 8,
+      "awayScore": 110.54,
+      "homeTeam": "Kareem On Your Gurley",
+      "homeTeamId": 4,
+      "homeScore": 134.2,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Sammie's Last Ride",
+      "awayTeamId": 3,
+      "awayScore": 126.06,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 89.5,
+      "winner": "AWAY"
+    },
+    {
+      "week": 10,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 131.02,
+      "homeTeam": "King of the WESt",
+      "homeTeamId": 6,
+      "homeScore": 101.3,
+      "winner": "AWAY"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 103.46,
+      "homeTeam": "Real Slim Brady",
+      "homeTeamId": 1,
+      "homeScore": 131.34,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 98.34,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 100.02,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 116.62,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 126.62,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Real Slim Brady",
+      "awayTeamId": 1,
+      "awayScore": 204,
+      "homeTeam": "Kareem On Your Gurley",
+      "homeTeamId": 4,
+      "homeScore": 120.2,
+      "winner": "AWAY"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Cry Me A Rivers",
+      "awayTeamId": 8,
+      "awayScore": 57.9,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 120.56,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 149.38,
+      "homeTeam": "Sammie's Last Ride",
+      "homeTeamId": 3,
+      "homeScore": 177.1,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "King of the WESt",
+      "awayTeamId": 6,
+      "awayScore": 85.6,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 78.2,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 146.54,
+      "homeTeam": "Real Slim Brady",
+      "homeTeamId": 1,
+      "homeScore": 177.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 128.08,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 93.62,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 89.92,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 115.72,
+      "winner": "HOME"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Kareem On Your Gurley",
+      "awayTeamId": 4,
+      "awayScore": 101.38,
+      "homeTeam": "Sammie's Last Ride",
+      "homeTeamId": 3,
+      "homeScore": 162.44,
+      "winner": "HOME"
+    },
+    {
+      "week": 12,
+      "awayTeam": "King of the WESt",
+      "awayTeamId": 6,
+      "awayScore": 126.66,
+      "homeTeam": "Cry Me A Rivers",
+      "homeTeamId": 8,
+      "homeScore": 120.4,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 100.56,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 121.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Sammie's Last Ride",
+      "awayTeamId": 3,
+      "awayScore": 135.86,
+      "homeTeam": "Real Slim Brady",
+      "homeTeamId": 1,
+      "homeScore": 134.82,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 109.2,
+      "homeTeam": "King of the WESt",
+      "homeTeamId": 6,
+      "homeScore": 152.24,
+      "winner": "HOME"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Kareem On Your Gurley",
+      "awayTeamId": 4,
+      "awayScore": 122.5,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 107.42,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 107.68,
+      "homeTeam": "Cry Me A Rivers",
+      "homeTeamId": 8,
+      "homeScore": 124.38,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Kareem On Your Gurley",
+      "awayTeamId": 4,
+      "awayScore": 317.94,
+      "homeTeam": "Real Slim Brady",
+      "homeTeamId": 1,
+      "homeScore": 268.94,
+      "winner": "AWAY"
+    },
+    {
+      "week": 14,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 252.12,
+      "homeTeam": "Sammie's Last Ride",
+      "homeTeamId": 3,
+      "homeScore": 267.34000000000003,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "King of the WESt",
+      "awayTeamId": 6,
+      "awayScore": 245.96,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 26.200000000000003,
+      "winner": "AWAY"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 187.28,
+      "homeTeam": "Cry Me A Rivers",
+      "homeTeamId": 8,
+      "homeScore": 229.26,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 236.62,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 263.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Kareem On Your Gurley",
+      "awayTeamId": 4,
+      "awayScore": 276.82,
+      "homeTeam": "Sammie's Last Ride",
+      "homeTeamId": 3,
+      "homeScore": 261.56,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 212.96,
+      "homeTeam": "Real Slim Brady",
+      "homeTeamId": 1,
+      "homeScore": 278.56,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Cry Me A Rivers",
+      "awayTeamId": 8,
+      "awayScore": 168.10000000000002,
+      "homeTeam": "King of the WESt",
+      "homeTeamId": 6,
+      "homeScore": 181.16,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 171.14,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 7.6,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 175.16,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 188.83999999999997,
+      "winner": "HOME"
+    }
+  ]
+}

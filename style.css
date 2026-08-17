@@ -898,16 +898,35 @@ header p {
 
     /* Championship banners */
 
-    #championship-wall {
-        grid-template-columns: repeat(3, 150px);
+ /* Championship banners */
 
-        gap: 15px;
-    }
+#championship-wall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 5px 25px;
+    overflow-x: visible;
+}
 
-    #championship-wall .championship-banner:last-child {
-        grid-column: 2;
-    }
+.championship-banner {
+    flex: 0 0 110px;
+    min-height: 170px;
+    padding: 15px 10px;
+}
 
+.banner-year {
+    font-size: 23px;
+}
+
+.banner-title {
+    font-size: 11px;
+    margin: 8px 0;
+}
+
+.banner-name {
+    font-size: 15px;
+}
 
     /* Records */
 

@@ -16,12 +16,20 @@ fetch("data/managers.json")
 
             card.innerHTML = `
                 <img src="images/${manager.image}" alt="${manager.managerName}">
-    
+
                 <div class="manager-page-card-info">
                     <h2>${manager.managerName}</h2>
                     <p>${manager.teamName}</p>
                 </div>
             `;
+
+            // Make the card clickable
+            card.addEventListener("click", () => {
+
+                window.location.href =
+                    `manager.html?id=${manager.managerId}`;
+
+            });
 
             container.appendChild(card);
         });
@@ -29,5 +37,3 @@ fetch("data/managers.json")
     .catch(error => {
         console.error("ERROR LOADING MANAGERS:", error);
     });
-
-    const container = document.getElementById("managers-container");

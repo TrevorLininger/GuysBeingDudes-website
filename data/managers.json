@@ -3,72 +3,105 @@
         "managerId": 1,
         "managerName": "Lake Johnson",
         "teamName": "Taco Corp",
-        "image": "taco-lego2.jpg"
+        "image": "taco-lego2.jpg",
+        "active": true
     },
     {
         "managerId": 2,
         "managerName": "Jim Joyner",
         "teamName": "Andy Reid Clock Managment",
-        "image": "lego-clock.jpg"
+        "image": "lego-clock.jpg",
+        "active": true
     },
     {
         "managerId": 3,
         "managerName": "Ryker Johnson",
         "teamName": "Bo-n*rs",
-        "image": "lego-bo.jpg"
+        "image": "lego-bo.jpg",
+        "active": true
     },
     {
         "managerId": 4,
         "managerName": "Hayden Jenkins",
         "teamName": "TD Milk",
-        "image": "lego-milk.jpg"
+        "image": "lego-milk.jpg",
+        "active": true
     },
     {
         "managerId": 5,
         "managerName": "Nick Yarbrough",
         "teamName": "Cousins Lover",
-        "image": "lego-heart.png"
+        "image": "lego-heart.png",
+        "active": true
     },
     {
         "managerId": 6,
         "managerName": "Trevor Lininger",
         "teamName": "TD's for Harambe",
-        "image": "lego-gorilla.jpg"
+        "image": "lego-gorilla.jpg",
+        "active": true
     },
     {
         "managerId": 7,
         "managerName": "Wes Summers",
         "teamName": "Dicked Down in Dallas",
-        "image": "lego-cowboy.png"
+        "image": "lego-cowboy.png",
+        "active": true
     },
     {
         "managerId": 8,
         "managerName": "Kip Unruh",
         "teamName": "Tune Squad",
-        "image": "lego-sj.png"
+        "image": "lego-ts.png",
+        "active": true
     },
     {
         "managerId": 9,
         "managerName": "Justin Madsen",
         "teamName": "Travis Swifties",
-        "image": "lego-ts.png"
+        "image": "lego-ts.png",
+        "active": true
     },
     {
         "managerId": 10,
         "managerName": "Gage Kiesling",
         "teamName": "Gage of Inches",
-        "image": "lego-commish.png"
+        "image": "lego-commish.png",
+        "active": true
     },
     {
         "managerId": 11,
         "managerName": "Austin Chisam",
         "teamName": "The Reid Rockets",
-        "image": "lego-rocket.png"
+        "image": "lego-rocket.png",
+        "active": true
     },
     {
         "managerId": 12,
         "managerName": "Matt Bush",
         "teamName": "That Was Legetteness",
-        "image": "lego-panthers.png"
+        "image": "lego-panthers.png",
+        "active": true
+    },
+    {
+        "managerId": 13,
+        "managerName": "Ethan Jacks",
+        "teamName": "Team EJ",
+        "image": "#",
+        "active": false
+    },
+    {
+        "managerId": 14,
+        "managerName": "Tyler Cawley",
+        "teamName": "Cawley's Team",
+        "image": "#",
+        "active": false
+    },
+    {
+        "managerId": 15,
+        "managerName": "Zach Vredenburg",
+        "teamName": "Team Vred",
+        "image": "#",
+        "active": false
     }
 ]

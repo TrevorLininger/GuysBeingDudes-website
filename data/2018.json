@@ -1,0 +1,858 @@
+{
+  "season": 2018,
+  "leagueName": "Guys Being Dudes",
+  "teams": [
+    {
+      "id": 1,
+      "name": "Boycott  Nike",
+      "manager": "",
+      "abbreviation": "KIES",
+      "wins": 5,
+      "losses": 8,
+      "pointsFor": 1557.2400000000002,
+      "managerId": 10
+    },
+    {
+      "id": 2,
+      "name": "Andy Reid Clock MGMT",
+      "manager": "Jim Joyner",
+      "abbreviation": "JOYN",
+      "wins": 7,
+      "losses": 6,
+      "pointsFor": 1808.26,
+      "managerId": 2
+    },
+    {
+      "id": 3,
+      "name": "Team Lininger",
+      "manager": "",
+      "abbreviation": "Lini",
+      "wins": 9,
+      "losses": 4,
+      "pointsFor": 1779.8,
+      "managerId": 14
+    },
+    {
+      "id": 4,
+      "name": "Odells Zookeeper",
+      "manager": "",
+      "abbreviation": "VRED",
+      "wins": 11,
+      "losses": 2,
+      "pointsFor": 1984.4200000000003,
+      "managerId": 15
+    },
+    {
+      "id": 5,
+      "name": "Taco Corp",
+      "manager": "Lake Johnson",
+      "abbreviation": "TACO",
+      "wins": 6,
+      "losses": 7,
+      "pointsFor": 1598.7000000000003,
+      "managerId": 1
+    },
+    {
+      "id": 6,
+      "name": "King of  The WESt",
+      "manager": "",
+      "abbreviation": "Ã°ÂÂÂ»",
+      "wins": 4,
+      "losses": 9,
+      "pointsFor": 1521.64,
+      "managerId": 7
+    },
+    {
+      "id": 7,
+      "name": "TD's for Harambe",
+      "manager": "Trevor Lininger",
+      "abbreviation": "DO4H",
+      "wins": 6,
+      "losses": 7,
+      "pointsFor": 1674.78,
+      "managerId": 6
+    },
+    {
+      "id": 8,
+      "name": "Cousins  Lover",
+      "manager": "",
+      "abbreviation": "LOVE",
+      "wins": 5,
+      "losses": 8,
+      "pointsFor": 1556.36,
+      "managerId": 5
+    },
+    {
+      "id": 9,
+      "name": "Team All my fri ends aremarried",
+      "manager": "",
+      "abbreviation": "MADS",
+      "wins": 8,
+      "losses": 5,
+      "pointsFor": 1720.9600000000003,
+      "managerId": 9
+    },
+    {
+      "id": 10,
+      "name": "Joe Mixon's Right Hooks",
+      "manager": "",
+      "abbreviation": "JMRH",
+      "wins": 4,
+      "losses": 9,
+      "pointsFor": 1471.5800000000002,
+      "managerId": 3
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "awayTeam": "King of  The WESt",
+      "awayTeamId": 6,
+      "awayScore": 128.84,
+      "homeTeam": "Odells Zookeeper",
+      "homeTeamId": 4,
+      "homeScore": 177.44,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 104.94,
+      "homeTeam": "Team Lininger",
+      "homeTeamId": 3,
+      "homeScore": 164.62,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 114.56,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 136.66,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Boycott  Nike",
+      "awayTeamId": 1,
+      "awayScore": 143.26,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 86.98,
+      "winner": "AWAY"
+    },
+    {
+      "week": 1,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 156.24,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 167.5,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 115.2,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 183.78,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Odells Zookeeper",
+      "awayTeamId": 4,
+      "awayScore": 175.04,
+      "homeTeam": "Boycott  Nike",
+      "homeTeamId": 1,
+      "homeScore": 91.12,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "King of  The WESt",
+      "awayTeamId": 6,
+      "awayScore": 107.26,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 160.18,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Team Lininger",
+      "awayTeamId": 3,
+      "awayScore": 95.44,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 131.86,
+      "winner": "HOME"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 100.86,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 169.08,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 151.38,
+      "homeTeam": "Boycott  Nike",
+      "homeTeamId": 1,
+      "homeScore": 114.44,
+      "winner": "AWAY"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 100.62,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 135.7,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 105.62,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 88.24,
+      "winner": "AWAY"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Team Lininger",
+      "awayTeamId": 3,
+      "awayScore": 134.38,
+      "homeTeam": "Odells Zookeeper",
+      "homeTeamId": 4,
+      "homeScore": 144.46,
+      "winner": "HOME"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 96.34,
+      "homeTeam": "King of  The WESt",
+      "homeTeamId": 6,
+      "homeScore": 115.5,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 137.86,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 134.56,
+      "winner": "AWAY"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Boycott  Nike",
+      "awayTeamId": 1,
+      "awayScore": 92.38,
+      "homeTeam": "Team Lininger",
+      "homeTeamId": 3,
+      "homeScore": 115.98,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 170.48,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 127.76,
+      "winner": "AWAY"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 127.5,
+      "homeTeam": "Odells Zookeeper",
+      "homeTeamId": 4,
+      "homeScore": 132.66,
+      "winner": "HOME"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 115.48,
+      "homeTeam": "King of  The WESt",
+      "homeTeamId": 6,
+      "homeScore": 104.72,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 126.7,
+      "homeTeam": "Team Lininger",
+      "homeTeamId": 3,
+      "homeScore": 148.12,
+      "winner": "HOME"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Odells Zookeeper",
+      "awayTeamId": 4,
+      "awayScore": 140.48,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 156.64,
+      "winner": "HOME"
+    },
+    {
+      "week": 5,
+      "awayTeam": "King of  The WESt",
+      "awayTeamId": 6,
+      "awayScore": 112.88,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 90.64,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 131.1,
+      "homeTeam": "Boycott  Nike",
+      "homeTeamId": 1,
+      "homeScore": 107.82,
+      "winner": "AWAY"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 97.34,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 110.52,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 153.7,
+      "homeTeam": "King of  The WESt",
+      "homeTeamId": 6,
+      "homeScore": 159.4,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Boycott  Nike",
+      "awayTeamId": 1,
+      "awayScore": 121.1,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 112.02,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 145.8,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 103.86,
+      "winner": "AWAY"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Team Lininger",
+      "awayTeamId": 3,
+      "awayScore": 135.88,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 152.94,
+      "winner": "HOME"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Odells Zookeeper",
+      "awayTeamId": 4,
+      "awayScore": 147.48,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 119.94,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "awayTeam": "King of  The WESt",
+      "awayTeamId": 6,
+      "awayScore": 138.44,
+      "homeTeam": "Boycott  Nike",
+      "homeTeamId": 1,
+      "homeScore": 128.3,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 128.66,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 112.08,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 120.08,
+      "homeTeam": "Team Lininger",
+      "homeTeamId": 3,
+      "homeScore": 149.2,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 115.18,
+      "homeTeam": "Odells Zookeeper",
+      "homeTeamId": 4,
+      "homeScore": 171.62,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 76.34,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 111.82,
+      "winner": "HOME"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 138.98,
+      "homeTeam": "King of  The WESt",
+      "homeTeamId": 6,
+      "homeScore": 116.44,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Team Lininger",
+      "awayTeamId": 3,
+      "awayScore": 162.12,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 149.76,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Odells Zookeeper",
+      "awayTeamId": 4,
+      "awayScore": 140.22,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 104.9,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 167.96,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 109.9,
+      "winner": "AWAY"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Boycott  Nike",
+      "awayTeamId": 1,
+      "awayScore": 120.74,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 125.06,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "King of  The WESt",
+      "awayTeamId": 6,
+      "awayScore": 84.94,
+      "homeTeam": "Team Lininger",
+      "homeTeamId": 3,
+      "homeScore": 176.22,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 132.86,
+      "homeTeam": "Odells Zookeeper",
+      "homeTeamId": 4,
+      "homeScore": 124.9,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 70.7,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 112.36,
+      "winner": "HOME"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Boycott  Nike",
+      "awayTeamId": 1,
+      "awayScore": 139.14,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 138.72,
+      "winner": "AWAY"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 92.24,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 151.86,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 111.74,
+      "homeTeam": "Odells Zookeeper",
+      "homeTeamId": 4,
+      "homeScore": 159.56,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Team Lininger",
+      "awayTeamId": 3,
+      "awayScore": 142.42,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 116.52,
+      "winner": "AWAY"
+    },
+    {
+      "week": 10,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 155.52,
+      "homeTeam": "King of  The WESt",
+      "homeTeamId": 6,
+      "homeScore": 117.7,
+      "winner": "AWAY"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 100.7,
+      "homeTeam": "Boycott  Nike",
+      "homeTeamId": 1,
+      "homeScore": 133,
+      "winner": "HOME"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 138.22,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 134.7,
+      "winner": "AWAY"
+    },
+    {
+      "week": 11,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 105.9,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 159.58,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Boycott  Nike",
+      "awayTeamId": 1,
+      "awayScore": 91.72,
+      "homeTeam": "Odells Zookeeper",
+      "homeTeamId": 4,
+      "homeScore": 182.22,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 113.08,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 229.22,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 105.44,
+      "homeTeam": "Team Lininger",
+      "homeTeamId": 3,
+      "homeScore": 126.7,
+      "winner": "HOME"
+    },
+    {
+      "week": 11,
+      "awayTeam": "King of  The WESt",
+      "awayTeamId": 6,
+      "awayScore": 128.28,
+      "homeTeam": "Joe Mixon's Right Hooks",
+      "homeTeamId": 10,
+      "homeScore": 134.18,
+      "winner": "HOME"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 121.28,
+      "homeTeam": "Boycott  Nike",
+      "homeTeamId": 1,
+      "homeScore": 174.04,
+      "winner": "HOME"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 137.94,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 113.78,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 101.12,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 87.8,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Odells Zookeeper",
+      "awayTeamId": 4,
+      "awayScore": 145.68,
+      "homeTeam": "Team Lininger",
+      "homeTeamId": 3,
+      "homeScore": 113.46,
+      "winner": "AWAY"
+    },
+    {
+      "week": 12,
+      "awayTeam": "King of  The WESt",
+      "awayTeamId": 6,
+      "awayScore": 120.72,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 169.68,
+      "winner": "HOME"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 121.22,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 138.4,
+      "winner": "HOME"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Team Lininger",
+      "awayTeamId": 3,
+      "awayScore": 115.26,
+      "homeTeam": "Boycott  Nike",
+      "homeTeamId": 1,
+      "homeScore": 100.18,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 91.28,
+      "homeTeam": "King of  The WESt",
+      "homeTeamId": 6,
+      "homeScore": 86.52,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Odells Zookeeper",
+      "awayTeamId": 4,
+      "awayScore": 142.66,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 139,
+      "winner": "AWAY"
+    },
+    {
+      "week": 13,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 96.06,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 128.24,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 100.5,
+      "homeTeam": "Odells Zookeeper",
+      "homeTeamId": 4,
+      "homeScore": 123.58,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Team All my fri ends aremarried",
+      "awayTeamId": 9,
+      "awayScore": 121.18,
+      "homeTeam": "Team Lininger",
+      "homeTeamId": 3,
+      "homeScore": 125.3,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 122.02,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 97.7,
+      "winner": "AWAY"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 117.12,
+      "homeTeam": "Boycott  Nike",
+      "homeTeamId": 1,
+      "homeScore": 156.84,
+      "winner": "HOME"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 107.16,
+      "homeTeam": "King of  The WESt",
+      "homeTeamId": 6,
+      "homeScore": 129.84,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Team Lininger",
+      "awayTeamId": 3,
+      "awayScore": 117.82,
+      "homeTeam": "Odells Zookeeper",
+      "homeTeamId": 4,
+      "homeScore": 95.62,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 130.76,
+      "homeTeam": "Team All my fri ends aremarried",
+      "homeTeamId": 9,
+      "homeScore": 83,
+      "winner": "AWAY"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Boycott  Nike",
+      "awayTeamId": 1,
+      "awayScore": 79.72,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 107.58,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "King of  The WESt",
+      "awayTeamId": 6,
+      "awayScore": 84.66,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 103.64,
+      "winner": "HOME"
+    },
+    {
+      "week": 15,
+      "awayTeam": "Joe Mixon's Right Hooks",
+      "awayTeamId": 10,
+      "awayScore": 114.48,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 101.2,
+      "winner": "AWAY"
+    }
+  ]
+}
