@@ -1317,3 +1317,23 @@ header p {
         font-size: 1.15rem;
     }
 }
+/* =========================
+   MANAGER PROFILE TITLE FIX
+========================= */
+
+.manager-profile-header {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+.manager-profile-header .manager-profile-label {
+    color: #f4761d !important;
+}
+
+.manager-profile-header .manager-profile-title h1 {
+    color: #ffffff !important;
+}
+
+.manager-profile-header .manager-profile-title p {
+    color: #d0d0d0 !important;
+}
