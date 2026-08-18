@@ -25,13 +25,13 @@
             </div>
 
         </nav>
-        <a href="index.html">
 
-        <img 
-            src="images/gbd-logo2.png" 
-            alt="GBD Fantasy Football Logo"
-            class="league-logo-page"
-        >
+        <a href="index.html">
+            <img
+                src="images/gbd-logo2.png"
+                alt="GBD Fantasy Football Logo"
+                class="league-logo-page"
+            >
         </a>
 
         <h1>Records</h1>
@@ -40,53 +40,73 @@
 
     </header>
 
-<main class="records-page">
 
-    <h2>League Records</h2>
+    <main class="records-page">
 
-    <div class="records-grid">
+        <h2>League Records</h2>
 
-        <div class="record-card">
-            <h3>Most Points in a Single Game</h3>
-            <div class="record-number">187</div>
-            <p>Taco Corp</p>
+        <div class="records-grid">
+
+            <!-- MOST POINTS IN A SINGLE GAME -->
+
+            <div class="record-card">
+                <h3>Most Points in a Single Game</h3>
+                <div class="record-number" id="most-points">-</div>
+                <p id="most-points-holder">Loading...</p>
+            </div>
+
+
+            <!-- LOWEST POINTS IN A SINGLE GAME -->
+
+            <div class="record-card">
+                <h3>Lowest Points in a Single Game</h3>
+                <div class="record-number" id="lowest-points">-</div>
+                <p id="lowest-points-holder">Loading...</p>
+            </div>
+
+
+            <!-- HIGHEST CAREER PPG -->
+
+            <div class="record-card">
+                <h3>Highest Career PPG Average</h3>
+                <div class="record-number" id="highest-career-ppg">-</div>
+                <p id="highest-career-ppg-holder">Loading...</p>
+            </div>
+
+
+            <!-- MOST CAREER WINS -->
+
+            <div class="record-card">
+                <h3>Most Career Wins</h3>
+                <div class="record-number" id="most-career-wins">-</div>
+                <p id="most-career-wins-holder">Loading...</p>
+            </div>
+
+
+            <!-- MOST CAREER POINTS -->
+
+            <div class="record-card">
+                <h3>Most Career Points</h3>
+                <div class="record-number" id="most-career-points">-</div>
+                <p id="most-career-points-holder">Loading...</p>
+            </div>
+
+
+            <!-- BEST SINGLE SEASON -->
+
+            <div class="record-card">
+                <h3>Best Single Season</h3>
+                <div class="record-number" id="best-season">-</div>
+                <p id="best-season-holder">Loading...</p>
+            </div>
+
         </div>
 
-        <div class="record-card">
-            <h3>Lowest Points in a Single Game</h3>
-            <div class="record-number">42</div>
-            <p>Cawley</p>
-        </div>
+    </main>
 
-        <div class="record-card">
-            <h3>Highest Career PPG Average</h3>
-            <div class="record-number">128.4</div>
-            <p>Taco Corp</p>
-        </div>
 
-        <div class="record-card">
-            <h3>Most Career Wins</h3>
-            <div class="record-number">87</div>
-            <p>Gage of Inches</p>
-        </div>
-
-        <div class="record-card">
-            <h3>Most Career Points</h3>
-            <div class="record-number">1,842</div>
-            <p>Taco Corp</p>
-        </div>
-
-        <div class="record-card">
-            <h3>Best Single Season</h3>
-            <div class="record-number">14-0</div>
-            <p>Gage of Inches</p>
-        </div>
-
-    </div>
-
-</main>
-
- 
+    <!-- Records JavaScript -->
+    <script src="records.js"></script>
 
 </body>
 
