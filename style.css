@@ -56,6 +56,7 @@ header p {
     width: 100%;
     margin: 30px auto;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .stat-container {
@@ -1181,6 +1182,7 @@ header p {
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+        box-sizing: border-box;
     }
 
     .navbar {
