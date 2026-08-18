@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const leagueId = 1472105;
-const season = 2017;
+const season = 2018;
 const managerNames = {
     "Taco Corp": "Lake Johnson",
     "Gage  Of Inches": "Gage Kiesling",

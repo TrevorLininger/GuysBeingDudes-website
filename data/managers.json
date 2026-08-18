@@ -52,7 +52,7 @@
         "managerId": 8,
         "managerName": "Kip Unruh",
         "teamName": "Tune Squad",
-        "image": "lego-ts.png",
+        "image": "lego-sj.png",
         "active": true
     },
     {
@@ -87,21 +87,21 @@
         "managerId": 13,
         "managerName": "Ethan Jacks",
         "teamName": "Team EJ",
-        "image": "#",
+        "image": "rip.png",
         "active": false
     },
     {
         "managerId": 14,
         "managerName": "Tyler Cawley",
         "teamName": "Cawley's Team",
-        "image": "#",
+        "image": "rip.png",
         "active": false
     },
     {
         "managerId": 15,
         "managerName": "Zach Vredenburg",
         "teamName": "Team Vred",
-        "image": "#",
+        "image": "rip.png",
         "active": false
     }
 ]
