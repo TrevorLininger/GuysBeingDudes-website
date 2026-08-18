@@ -1,9 +1,22 @@
+```css
 /* =========================
    GLOBAL
 ========================= */
 
+* {
+    box-sizing: border-box;
+}
+
+html,
 body {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #222;
@@ -19,6 +32,8 @@ header {
     color: white;
     padding: 30px;
     text-align: center;
+    width: 100%;
+    max-width: 100%;
 }
 
 header h1 {
@@ -47,12 +62,14 @@ header p {
     display: flex;
     gap: 20px;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .stat-card {
     background-color: white;
     padding: 25px;
     flex: 1;
+    min-width: 0;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -73,6 +90,7 @@ header p {
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
+    width: 100%;
 }
 
 
@@ -83,6 +101,7 @@ header p {
 .league-logo {
     width: 250px;
     height: 250px;
+    max-width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
 
@@ -118,6 +137,9 @@ header p {
     padding: 15px 30px;
 
     flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -128,6 +150,7 @@ header p {
 .league-logo-page {
     width: 90px;
     height: 90px;
+    max-width: 100%;
     object-fit: contain;
 
     filter: drop-shadow(
@@ -154,6 +177,7 @@ header p {
 
 .page-header nav {
     margin-left: auto;
+    min-width: 0;
 }
 
 .page-header .nav-links {
@@ -182,6 +206,8 @@ header p {
     align-items: center;
 
     max-width: 1100px;
+    width: 100%;
+
     margin: 0 auto;
 
     padding: 15px 20px;
@@ -195,12 +221,14 @@ header p {
 .nav-links {
     display: flex;
     gap: 25px;
+    min-width: 0;
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -214,6 +242,7 @@ header p {
 
 .championship-section {
     max-width: 1100px;
+    width: 100%;
     margin: 30px auto;
     padding: 0 20px;
 }
@@ -226,16 +255,24 @@ header p {
 #championship-wall {
     display: flex;
     gap: 20px;
+
+    width: 100%;
+    max-width: 100%;
+
     overflow-x: auto;
+
     padding: 20px 10px 30px;
+
     justify-content: center;
 }
 
 .championship-banner {
     flex: 0 0 150px;
+
     min-height: 220px;
 
     color: white;
+
     text-align: center;
 
     padding: 20px 15px;
@@ -371,6 +408,7 @@ header p {
 
 .records-page {
     max-width: 1100px;
+    width: 100%;
     margin: 30px auto;
     padding: 0 20px;
 }
@@ -384,6 +422,7 @@ header p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    width: 100%;
 }
 
 .record-card {
@@ -438,6 +477,7 @@ header p {
 
 .draft-info-section {
     max-width: 1100px;
+    width: 100%;
     margin: 30px auto;
     padding: 0 20px;
 }
@@ -451,6 +491,7 @@ header p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    width: 100%;
 }
 
 .draft-details {
@@ -548,6 +589,7 @@ header p {
 .brewery-logo {
     width: 120px;
     height: 120px;
+    max-width: 100%;
     object-fit: contain;
 
     margin-bottom: 15px;
@@ -589,6 +631,7 @@ header p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 35px 25px;
+    width: 100%;
 }
 
 .manager-card {
@@ -598,11 +641,14 @@ header p {
 
     text-decoration: none;
     color: #222;
+
+    min-width: 0;
 }
 
 .manager-card img {
     width: 180px;
     height: 180px;
+    max-width: 100%;
 
     object-fit: cover;
     border-radius: 50%;
@@ -679,6 +725,7 @@ header p {
     padding: 25px;
     text-align: left;
     flex: 1;
+    min-width: 0;
 }
 
 .manager-page-card-info a {
@@ -774,23 +821,14 @@ header p {
     position: relative;
 }
 
-
-/* Small orange label */
-
 .manager-profile-header .manager-profile-label {
     margin: 0 0 12px;
-
     color: #f4761d !important;
 
     font-size: 0.75rem;
-
     font-weight: 900;
-
     letter-spacing: 5px;
 }
-
-
-/* Manager name */
 
 .manager-profile-header .manager-profile-title h1 {
     margin: 0;
@@ -798,16 +836,11 @@ header p {
     color: #111111 !important;
 
     font-size: clamp(2.5rem, 6vw, 5rem);
-
     font-weight: 900;
 
     letter-spacing: -2px;
-
     line-height: 1;
 }
-
-
-/* Team name */
 
 .manager-profile-header .manager-profile-title p {
     margin: 15px 0 0;
@@ -815,12 +848,8 @@ header p {
     color: #555555 !important;
 
     font-size: 1.25rem;
-
     font-weight: 700;
 }
-
-
-/* Orange line beneath header */
 
 .manager-profile-header::after {
     content: "";
@@ -830,7 +859,6 @@ header p {
     bottom: 0;
 
     left: 10%;
-
     right: 10%;
 
     height: 4px;
@@ -847,7 +875,6 @@ header p {
 
 .manager-overview {
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
 
     gap: 16px;
@@ -857,11 +884,9 @@ header p {
 
 .manager-stat-card {
     background: #111111 !important;
-
     color: #ffffff !important;
 
     border: 1px solid #292929;
-
     border-radius: 12px;
 
     padding: 28px 20px;
@@ -872,6 +897,8 @@ header p {
         transform 0.2s ease,
         border-color 0.2s ease,
         box-shadow 0.2s ease;
+
+    min-width: 0;
 }
 
 .manager-stat-card:hover {
@@ -893,7 +920,6 @@ header p {
     color: #bdbdbd !important;
 
     font-size: 0.7rem;
-
     font-weight: 900;
 
     letter-spacing: 2px;
@@ -907,7 +933,6 @@ header p {
     color: #ffffff !important;
 
     font-size: 2rem;
-
     font-weight: 900;
 }
 
@@ -920,9 +945,6 @@ header p {
     margin-bottom: 65px;
 }
 
-
-/* Career Highlights / Season History */
-
 .manager-section-heading h2 {
     margin: 0;
 
@@ -931,16 +953,11 @@ header p {
     font-size: 1.45rem;
 
     text-transform: uppercase;
-
     letter-spacing: 2px;
 }
 
-
-/* Orange divider */
-
 .manager-section-heading {
     display: flex;
-
     align-items: center;
 
     gap: 20px;
@@ -985,6 +1002,8 @@ header p {
     transition:
         transform 0.2s ease,
         border-color 0.2s ease;
+
+    min-width: 0;
 }
 
 .manager-highlight-card:hover {
@@ -1063,6 +1082,8 @@ header p {
     transition:
         background-color 0.2s ease,
         padding-left 0.2s ease;
+
+    min-width: 0;
 }
 
 .manager-season-row:last-child {
@@ -1087,6 +1108,8 @@ header p {
     color: #222222 !important;
 
     font-weight: 700;
+
+    min-width: 0;
 }
 
 .manager-season-record {
@@ -1104,9 +1127,9 @@ header p {
 }
 
 
-/* =========================
-   MANAGER PROFILE MOBILE
-========================= */
+/* =========================================================
+   TABLET / MOBILE
+========================================================= */
 
 @media (max-width: 800px) {
 
@@ -1125,34 +1148,68 @@ header p {
     .manager-season-points {
         display: none;
     }
-}
-
-
-@media (max-width: 600px) {
-
-    header h1 {
-        font-size: 28px;
-    }
 
     .stat-container {
         flex-direction: column;
     }
 
-    .stat-card {
-        width: auto;
+    .draft-info-container {
+        grid-template-columns: 1fr;
+    }
+
+    .records-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .dashboard,
+    .championship-section,
+    .records-page,
+    .draft-info-section,
+    .managers-section {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     #championship-wall {
         flex-wrap: wrap;
         justify-content: center;
+
         gap: 15px;
+
         padding: 15px 5px 25px;
+
         overflow-x: visible;
     }
 
     .championship-banner {
         flex: 0 0 110px;
+
         min-height: 170px;
+
         padding: 15px 10px;
     }
 
@@ -1177,10 +1234,6 @@ header p {
         min-height: 160px;
     }
 
-    .draft-info-container {
-        grid-template-columns: 1fr;
-    }
-
     #draft-countdown {
         gap: 10px;
     }
@@ -1195,6 +1248,7 @@ header p {
 
     .manager-grid {
         grid-template-columns: repeat(2, 1fr);
+
         gap: 30px 15px;
     }
 
@@ -1218,6 +1272,7 @@ header p {
     .manager-page-card > img {
         width: 100px;
         height: 100px;
+
         margin-left: 15px;
     }
 
