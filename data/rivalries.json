@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "manager1": 1,
+        "manager2": 2,
+        "name": "Lake vs Jim",
+        "description": "Lake and Jim have been rivals since the beginning of the league. They have faced each other in the playoffs multiple times, with each manager winning some and losing some. Their rivalry is fueled by their competitive nature and desire to be the best."
+    },
+    {
+        "id": 2,
+        "manager1": 10,
+        "manager2": 3,
+        "name": "Gage vs Ryker",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "manager1": 6,
+        "manager2": 7,
+        "name": "Trevor vs Wes",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "manager1": 5,
+        "manager2": 8,
+        "name": "Nick vs Kip",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "manager1": 9,
+        "manager2": 11,
+        "name": "Farmageddon",
+        "description": ""
+    },
+    {
+        "id": 6,
+        "manager1": 4,
+        "manager2": 12,
+        "name": "Hayden vs Bush",
+        "description": ""
+    }
+]

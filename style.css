@@ -1,4 +1,4 @@
-```css
+
 /* =========================
    GLOBAL
 ========================= */
@@ -1363,4 +1363,533 @@ header p {
     .manager-section-heading h2 {
         font-size: 1.15rem;
     }
+}
+/* ============================================================
+   RIVALRIES PAGE
+   ============================================================ */
+
+
+/* ============================================================
+   RIVALRIES CONTAINER
+   ============================================================ */
+
+.rivalries-container {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+
+    margin-top: 30px;
+
+}
+
+
+/* ============================================================
+   RIVALRY CARD
+   ============================================================ */
+
+.rivalry-card {
+
+    width: 100%;
+
+    background: #ffffff;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.08);
+
+}
+
+
+/* ============================================================
+   RIVALRY TITLE
+   ============================================================ */
+
+.rivalry-card-title {
+
+    background: #111111;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    padding: 18px 20px;
+
+    border-bottom: 4px solid #f4761d;
+
+}
+
+
+.rivalry-card-title h2 {
+
+    margin: 0;
+
+    font-size: 1.6rem;
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+}
+
+
+/* ============================================================
+   MAIN RIVALRY AREA
+   ============================================================ */
+
+.rivalry-main {
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        220px
+        minmax(0, 1fr);
+
+    align-items: stretch;
+
+    min-height: 360px;
+
+}
+
+
+/* ============================================================
+   MANAGER SECTIONS
+   ============================================================ */
+
+.rivalry-manager {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 30px 25px;
+
+    text-align: center;
+
+}
+
+
+.rivalry-manager-left {
+
+    border-right: 1px solid #e5e5e5;
+
+}
+
+
+.rivalry-manager-right {
+
+    border-left: 1px solid #e5e5e5;
+
+}
+
+
+/* ============================================================
+   MANAGER IMAGE
+   ============================================================ */
+
+.rivalry-manager-image {
+
+    width: 150px;
+
+    height: 150px;
+
+    object-fit: contain;
+
+    margin-bottom: 12px;
+
+}
+
+
+/* ============================================================
+   TEAM NAME
+   ============================================================ */
+
+.rivalry-manager h3 {
+
+    margin: 4px 0 2px;
+
+    font-size: 1.25rem;
+
+    font-weight: 800;
+
+    color: #111111;
+
+}
+
+
+/* ============================================================
+   MANAGER NAME
+   ============================================================ */
+
+.rivalry-manager-name {
+
+    margin: 0;
+
+    color: #777777;
+
+    font-size: 0.95rem;
+
+}
+
+
+/* ============================================================
+   MANAGER STATS
+   ============================================================ */
+
+.rivalry-manager-stats {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 28px;
+
+    margin-top: 25px;
+
+    width: 100%;
+
+}
+
+
+.rivalry-stat {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    min-width: 65px;
+
+}
+
+
+.stat-label {
+
+    font-size: 0.7rem;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.6px;
+
+    color: #888888;
+
+    margin-bottom: 4px;
+
+}
+
+
+.stat-value {
+
+    font-size: 1.15rem;
+
+    font-weight: 800;
+
+    color: #111111;
+
+}
+
+
+/* ============================================================
+   CENTER SECTION
+   ============================================================ */
+
+.rivalry-center {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 25px 15px;
+
+}
+
+
+/* ============================================================
+   TROPHY
+   ============================================================ */
+
+.rivalry-trophy {
+
+    margin-bottom: 12px;
+
+}
+
+
+.rivalry-trophy img {
+
+    width: 65px;
+
+    height: 65px;
+
+    object-fit: contain;
+
+}
+
+
+/* ============================================================
+   OVERALL RECORD
+   ============================================================ */
+
+.rivalry-overall-record {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-bottom: 25px;
+
+}
+
+
+.rivalry-overall-record .record {
+
+    font-size: 2rem;
+
+    font-weight: 900;
+
+    line-height: 1;
+
+    color: #111111;
+
+}
+
+
+.record-label {
+
+    margin-top: 7px;
+
+    font-size: 0.65rem;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    color: #888888;
+
+}
+
+
+/* ============================================================
+   PLAYOFF SECTION
+   ============================================================ */
+
+.rivalry-playoffs {
+
+    width: 100%;
+
+    padding-top: 18px;
+
+    border-top: 1px solid #dddddd;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+.playoff-title {
+
+    font-size: 0.7rem;
+
+    font-weight: 800;
+
+    letter-spacing: 0.8px;
+
+    color: #888888;
+
+}
+
+
+.playoff-count {
+
+    font-size: 1.5rem;
+
+    font-weight: 900;
+
+    color: #111111;
+
+    margin-top: 5px;
+
+}
+
+
+.playoff-record {
+
+    font-size: 1rem;
+
+    font-weight: 800;
+
+    margin-top: 2px;
+
+}
+
+
+/* ============================================================
+   RIVALRY STORY
+   ============================================================ */
+
+.rivalry-story {
+
+    border-top: 1px solid #e5e5e5;
+
+    background: #f7f7f7;
+
+    padding: 22px 35px;
+
+}
+
+
+.rivalry-story p {
+
+    margin: 0;
+
+    text-align: center;
+
+    color: #555555;
+
+    font-size: 0.95rem;
+
+    line-height: 1.6;
+
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 700px) {
+
+
+    .rivalries-container {
+
+        gap: 20px;
+
+        margin-top: 20px;
+
+    }
+
+
+    .rivalry-card-title {
+
+        padding: 15px;
+
+    }
+
+
+    .rivalry-card-title h2 {
+
+        font-size: 1.25rem;
+
+    }
+
+
+    .rivalry-main {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .rivalry-manager {
+
+        padding: 25px 15px;
+
+    }
+
+
+    .rivalry-manager-left {
+
+        border-right: none;
+
+        border-bottom: 1px solid #e5e5e5;
+
+    }
+
+
+    .rivalry-manager-right {
+
+        border-left: none;
+
+        border-top: 1px solid #e5e5e5;
+
+    }
+
+
+    .rivalry-center {
+
+        order: 0;
+
+        padding: 25px 15px;
+
+    }
+
+
+    .rivalry-manager-left {
+
+        order: 1;
+
+    }
+
+
+    .rivalry-manager-right {
+
+        order: 2;
+
+    }
+
+
+    .rivalry-manager-image {
+
+        width: 130px;
+
+        height: 130px;
+
+    }
+
+
+    .rivalry-manager-stats {
+
+        gap: 18px;
+
+    }
+
+
+    .rivalry-story {
+
+        padding: 20px;
+
+    }
+
+
 }
