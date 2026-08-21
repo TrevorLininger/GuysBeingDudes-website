@@ -486,6 +486,18 @@ function buildRivalries(
                             }
 
                         </span>
+                        <span class="playoff-leader">
+                        ${
+                            stats.playoff.manager1Wins >
+                            stats.playoff.manager2Wins
+                                ? `${manager1.managerName} leads`
+                                : stats.playoff.manager2Wins >
+                                stats.playoff.manager1Wins
+                                    ? `${manager2.managerName} leads`
+                                    : "Tied"
+                        }
+                        </span>
+                        }
 
                     </div>
 
