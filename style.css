@@ -1908,3 +1908,350 @@ header p {
     color: #888888;
 
 }
+
+/* ============================================================
+   LEAGUE HISTORY PAGE
+   ============================================================ */
+
+
+/* ============================================================
+   HISTORY PAGE CONTAINER
+   ============================================================ */
+
+.history-page {
+
+    max-width: 1000px;
+
+    margin: 50px auto 80px;
+
+    padding: 0 30px;
+
+}
+
+
+/* ============================================================
+   HISTORY ENTRY
+   ============================================================ */
+
+.history-entry {
+
+    display: grid;
+
+    grid-template-columns: 150px 1fr;
+
+    column-gap: 45px;
+
+    position: relative;
+
+    padding-bottom: 60px;
+
+}
+
+
+/* ============================================================
+   TIMELINE LINE
+   ============================================================ */
+
+.history-entry:not(:last-child)::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 75px;
+
+    top: 95px;
+
+    bottom: 0;
+
+    width: 3px;
+
+    background: #dddddd;
+
+}
+
+
+/* ============================================================
+   YEAR
+   ============================================================ */
+
+.history-year {
+
+    position: relative;
+
+    z-index: 2;
+
+    width: 150px;
+
+    height: 150px;
+
+    border-radius: 50%;
+
+    background: #111111;
+
+    color: #ffffff;
+
+    border: 6px solid #f4761d;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 1.8rem;
+
+    font-weight: 900;
+
+    letter-spacing: 1px;
+
+    box-shadow:
+        0 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+
+/* ============================================================
+   HISTORY CONTENT
+   ============================================================ */
+
+.history-content {
+
+    background: #ffffff;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 14px;
+
+    padding: 30px 35px;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.07);
+
+    position: relative;
+
+}
+
+
+/* ============================================================
+   LITTLE CONNECTOR FROM YEAR TO CARD
+   ============================================================ */
+
+.history-content::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: -45px;
+
+    top: 72px;
+
+    width: 45px;
+
+    height: 3px;
+
+    background: #dddddd;
+
+}
+
+
+/* ============================================================
+   SEASON TITLE
+   ============================================================ */
+
+.history-content h2 {
+
+    margin: 0 0 10px;
+
+    font-size: 1.8rem;
+
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.8px;
+
+    color: #111111;
+
+}
+
+
+/* ============================================================
+   CHAMPION
+   ============================================================ */
+
+.history-content h3 {
+
+    margin: 0 0 20px;
+
+    font-size: 1rem;
+
+    font-weight: 800;
+
+    color: #f4761d;
+
+}
+
+
+/* ============================================================
+   WRITE-UP
+   ============================================================ */
+
+.history-content p {
+
+    margin: 0;
+
+    color: #555555;
+
+    font-size: 1rem;
+
+    line-height: 1.75;
+
+}
+
+
+/* ============================================================
+   HOVER EFFECT
+   ============================================================ */
+
+.history-content {
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+}
+
+
+.history-content:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.11);
+
+}
+
+
+.history-year {
+
+    transition:
+        transform 0.2s ease;
+
+}
+
+
+.history-entry:hover .history-year {
+
+    transform: scale(1.04);
+
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 700px) {
+
+
+    .history-page {
+
+        margin-top: 30px;
+
+        padding: 0 15px;
+
+    }
+
+
+    .history-entry {
+
+        grid-template-columns: 75px 1fr;
+
+        column-gap: 20px;
+
+        padding-bottom: 40px;
+
+    }
+
+
+    /* --------------------------------------------------------
+       Smaller year circle
+       -------------------------------------------------------- */
+
+    .history-year {
+
+        width: 75px;
+
+        height: 75px;
+
+        border-width: 4px;
+
+        font-size: 1rem;
+
+    }
+
+
+    /* --------------------------------------------------------
+       Timeline
+       -------------------------------------------------------- */
+
+    .history-entry:not(:last-child)::after {
+
+        left: 36px;
+
+        top: 75px;
+
+        width: 3px;
+
+    }
+
+
+    /* --------------------------------------------------------
+       Remove horizontal connector on mobile
+       -------------------------------------------------------- */
+
+    .history-content::before {
+
+        display: none;
+
+    }
+
+
+    /* --------------------------------------------------------
+       Content card
+       -------------------------------------------------------- */
+
+    .history-content {
+
+        padding: 20px;
+
+    }
+
+
+    .history-content h2 {
+
+        font-size: 1.25rem;
+
+    }
+
+
+    .history-content h3 {
+
+        font-size: 0.85rem;
+
+        line-height: 1.4;
+
+    }
+
+
+    .history-content p {
+
+        font-size: 0.9rem;
+
+        line-height: 1.65;
+
+    }
+
+}
