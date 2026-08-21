@@ -497,7 +497,6 @@ function buildRivalries(
                                     : "Tied"
                         }
                         </span>
-                        }
 
                     </div>
 
