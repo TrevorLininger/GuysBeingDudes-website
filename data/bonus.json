@@ -11,7 +11,7 @@
         "week": 2,
         "name": "Matchup Blues",
         "description": "Highest team score in a loss",
-        "image": "images/matchup-blues.png",
+        "image": "images/blues.png",
         "entries": 0, 
         "payout": 0
     },
@@ -27,7 +27,7 @@
         "week": 4,
         "name": "Beast Mode",
         "description": "Most points by one active Running Back",
-        "image": "",
+        "image": "beast-mode.jpg",
         "entries": 0, 
         "payout": 0
     },
@@ -35,7 +35,7 @@
         "week": 5,
         "name": "Lucky Duck",
         "description": "Lowest score in a win",
-        "image": "",
+        "image": "lucky-duck.jpg",
         "entries": 0, 
         "payout": 0
     },
@@ -43,7 +43,7 @@
         "week": 6,
         "name": "The Sheriff",
         "description": "Most points scored by an active Quarterback",
-        "image": "",
+        "image": "sheriff.jpg",
         "entries": 0, 
         "payout": 0
     },
@@ -51,7 +51,7 @@
         "week": 7,
         "name": "Photo Finish",
         "description": "Narrowest margin of victory",
-        "image": "",
+        "image": "camera.png",
         "entries": 0, 
         "payout": 0
     },
@@ -59,7 +59,7 @@
         "week": 8,
         "name": "The Flex",
         "description": "Most points by a RB/WR/TE in one of your FLEX positions",
-        "image": "",
+        "image": "flex.jpg",
         "entries": 0, 
         "payout": 0
     },
