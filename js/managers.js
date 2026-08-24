@@ -1,39 +1,265 @@
 console.log("MANAGERS JS LOADED");
 
-fetch("data/managers.json")
-    .then(response => response.json())
-    .then(managers => {
 
-        console.log("MANAGERS DATA:", managers);
+// ============================================================
+// LOAD MANAGERS + CHAMPIONSHIP HISTORY
+// ============================================================
 
-        const container = document.getElementById("managers-container");
+Promise.all([
+
+    fetch("data/managers.json")
+        .then(response => response.json()),
+
+    fetch("data/champions.json")
+        .then(response => response.json())
+
+])
+
+    .then(([managers, champions]) => {
+
+        console.log(
+            "MANAGERS DATA:",
+            managers
+        );
+
+        console.log(
+            "CHAMPIONS DATA:",
+            champions
+        );
+
+
+        const container =
+            document.getElementById(
+                "managers-container"
+            );
+
+
+        // ====================================================
+        // BUILD EACH MANAGER CARD
+        // ====================================================
 
         managers.forEach(manager => {
 
-            const card = document.createElement("div");
+            const card =
+                document.createElement(
+                    "div"
+                );
 
-            card.className = "manager-page-card";
+
+            card.className =
+                "manager-page-card";
+
+
+            // =================================================
+            // FIND ALL TOP-3 FINISHES FOR THIS MANAGER
+            // =================================================
+
+            const finishes = [];
+
+
+            Object.entries(champions).forEach(
+                ([year, results]) => {
+
+                    const managerId =
+                        Number(
+                            manager.managerId
+                        );
+
+
+                    if (
+                        Number(results.first) ===
+                        managerId
+                    ) {
+
+                        finishes.push({
+
+                            year: year,
+
+                            place: 1
+
+                        });
+
+                    }
+
+
+                    else if (
+                        Number(results.second) ===
+                        managerId
+                    ) {
+
+                        finishes.push({
+
+                            year: year,
+
+                            place: 2
+
+                        });
+
+                    }
+
+
+                    else if (
+                        Number(results.third) ===
+                        managerId
+                    ) {
+
+                        finishes.push({
+
+                            year: year,
+
+                            place: 3
+
+                        });
+
+                    }
+
+                }
+            );
+
+
+            // =================================================
+            // BUILD FINISH DISPLAY
+            // =================================================
+
+            const championshipHTML =
+                finishes.length > 0
+
+                    ? `
+
+                        <div class="manager-championships">
+
+                            ${finishes
+                                .map(
+                                    finish => {
+
+                                        let trophy = "";
+
+                                        let label = "";
+
+
+                                        if (
+                                            finish.place === 1
+                                        ) {
+
+                                            trophy = "trophy-gold.png";
+
+                                            label =
+                                                "Champion";
+
+                                        }
+
+                                        else if (
+                                            finish.place === 2
+                                        ) {
+
+                                            trophy = "trophy-silver.png";
+
+                                            label =
+                                                "Runner-Up";
+
+                                        }
+
+                                        else {
+
+                                            trophy = "trophy-bronze.png";
+
+                                            label =
+                                                "Third Place";
+
+                                        }
+
+
+                                        return `
+
+                                            <div
+                                                class="manager-championship"
+                                                title="${label} - ${finish.year}"
+                                            >
+
+                                                <img
+                                                    class="championship-trophy"
+                                                    src="images/${trophy}"
+                                                    alt="${label}"
+                                                >
+
+                                                <span
+                                                    class="championship-year"
+                                                >
+                                                    ${finish.year}
+                                                </span>
+
+                                            </div>
+
+                                        `;
+
+                                    }
+                                )
+                                .join("")
+                            }
+
+                        </div>
+
+                    `
+
+                    : "";
+
+
+            // =================================================
+            // BUILD CARD
+            // =================================================
 
             card.innerHTML = `
-                <img src="images/${manager.image}" alt="${manager.managerName}">
+
+                <img
+                    src="images/${manager.image}"
+                    alt="${manager.managerName}"
+                >
 
                 <div class="manager-page-card-info">
-                    <h2>${manager.managerName}</h2>
-                    <p>${manager.teamName}</p>
+
+                    <h2>
+                        ${manager.managerName}
+                    </h2>
+
+                    <p>
+                        ${manager.teamName}
+                    </p>
+
+                    ${championshipHTML}
+
                 </div>
+
             `;
 
-            // Make the card clickable
-            card.addEventListener("click", () => {
 
-                window.location.href =
-                    `manager.html?id=${manager.managerId}`;
+            // =================================================
+            // MAKE CARD CLICKABLE
+            // =================================================
 
-            });
+            card.addEventListener(
+                "click",
+                () => {
 
-            container.appendChild(card);
+                    window.location.href =
+                        `manager.html?id=${manager.managerId}`;
+
+                }
+            );
+
+
+            container.appendChild(
+                card
+            );
+
         });
+
     })
+
     .catch(error => {
-        console.error("ERROR LOADING MANAGERS:", error);
+
+        console.error(
+            "ERROR LOADING MANAGER DATA:",
+            error
+        );
+
     });
