@@ -426,8 +426,8 @@ function buildRivalries(
                     <div class="rivalry-trophy">
 
                         <img
-                            src="images/trophy.png"
-                            alt="Trophy"
+                            src="images/${rivalry.trophy}"
+                            alt="${rivalry.name} Trophy"
                         >
 
                     </div>
