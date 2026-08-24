@@ -172,7 +172,7 @@ Promise.all([
                                         return `
 
                                             <div
-                                                class="manager-trophies"
+                                                class="manager-trophy"
                                                 title="${label} - ${finish.year}"
                                             >
 
