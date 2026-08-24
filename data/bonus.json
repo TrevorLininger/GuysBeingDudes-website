@@ -1,0 +1,114 @@
+[
+    {
+        "week": 1,
+        "name": "Hot Start",
+        "description": "Team with the most total points scored",
+        "image": "",
+        "entries": 5, 
+        "payout": 25 
+    },
+    {
+        "week": 2,
+        "name": "Matchup Blues",
+        "description": "Highest team score in a loss",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 3,
+        "name": "Bench Warmer",
+        "description": "Team with the highest scoring player on their bench",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 4,
+        "name": "Beast Mode",
+        "description": "Most points by one active Running Back",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 5,
+        "name": "Lucky Duck",
+        "description": "Lowest score in a win",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 6,
+        "name": "The Sheriff",
+        "description": "Most points scored by an active Quarterback",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 7,
+        "name": "Photo Finish",
+        "description": "Narrowest margin of victory",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 8,
+        "name": "The Flex",
+        "description": "Most points by a RB/WR/TE in one of your FLEX positions",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 9,
+        "name": "Nice Hands",
+        "description": "Most points by an active Wide Receiver",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 10,
+        "name": "Blowout",
+        "description": "Largest margin of victory",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 11,
+        "name": "The Longest Yard",
+        "description": "Active WR/TE/RB with the most TOTAL yards",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 12,
+        "name": "One-Two Punch",
+        "description": "Highest combined total yardage RB1 and RB2 positions",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 13,
+        "name": "Pick Six",
+        "description": "Most points by an active Defense",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    },
+    {
+        "week": 14,
+        "name": "Tighty Whities",
+        "description": "Most poitns by an active Tight End",
+        "image": "",
+        "entries": 0, 
+        "payout": 0
+    }
+]
