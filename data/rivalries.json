@@ -4,7 +4,7 @@
         "manager1": 1,
         "manager2": 2,
         "name": "Lake vs Jim",
-        "description": "Lake and Jim have been rivals since the beginning of the league. They have faced each other in the playoffs multiple times, with each manager winning some and losing some. Their rivalry is fueled by their competitive nature and desire to be the best.",
+        "description": "These two founding members feature the only Rivalry in the league where both teams have won a championship. Lake has won 2, including 2025's championship in which he defeated Jim.",
         "trophy": "golf-trophy.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "manager1": 10,
         "manager2": 3,
         "name": "Gage vs Ryker",
-        "description": "",
+        "description": "These two were always bound to be rivals. Chipiness in the league group chat, constant trash talk, and consistent matchups makes this a premier rivalry in the league.",
         "trophy": "mo-kan.png"
     },
     {
@@ -20,7 +20,7 @@
         "manager1": 6,
         "manager2": 7,
         "name": "Trevor vs Wes",
-        "description": "",
+        "description": "Two new dads. Both founding members of the league, yet neither have managed to win a championship yet. This is the leagues most common matchup, having faced off 22 times so far.",
         "trophy": "number-one-dad-trophy.png"
     },
     {
@@ -28,7 +28,7 @@
         "manager1": 5,
         "manager2": 8,
         "name": "Nick vs Kip",
-        "description": "",
+        "description": "From the mean streets of Olathe Northwest, this rivalry is a long time in the making. With no love lost, every matchup between these two is intense.",
         "trophy": "onw-logo.png"
     },
     {
@@ -36,7 +36,7 @@
         "manager1": 9,
         "manager2": 11,
         "name": "Farmageddon",
-        "description": "",
+        "description": "Just two down to earth country boys. Chisam and Good Ol Boy JR were meant to be rivals. Whether on the fantasy football field, or debating who has shot more turkeys, this is a matchup for the ages.",
         "trophy": "tractor-trophy.jpg"
     },
     {
@@ -44,7 +44,7 @@
         "manager1": 4,
         "manager2": 12,
         "name": "Hayden vs Bush",
-        "description": "",
+        "description": "Both joining the league in 2023, this was always bound to be a rivalry.",
         "trophy": "delta-tau-delta.png"
     }
 ]
