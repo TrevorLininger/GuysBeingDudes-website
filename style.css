@@ -2255,3 +2255,181 @@ header p {
     }
 
 }
+
+/* ============================================================
+   WEEKLY BONUSES
+   ============================================================ */
+
+.weekly-bonuses-section {
+
+    margin-top: 40px;
+
+    padding: 0 20px 40px;
+
+}
+
+
+.weekly-bonuses-section h2 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* ============================================================
+   BONUS CARD CONTAINER
+   ============================================================ */
+
+.weekly-bonuses-container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+
+}
+
+
+/* ============================================================
+   BONUS CARD
+   ============================================================ */
+
+.weekly-bonus-card {
+
+    display: flex;
+
+    align-items: center;
+
+    width: 100%;
+
+    min-height: 140px;
+
+    background: #ffffff;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.12);
+
+}
+
+
+/* ============================================================
+   BONUS IMAGE
+   ============================================================ */
+
+.weekly-bonus-image {
+
+    width: 150px;
+
+    height: 140px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    background: #f2f2f2;
+
+}
+
+
+.weekly-bonus-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+/* ============================================================
+   BONUS INFORMATION
+   ============================================================ */
+
+.weekly-bonus-info {
+
+    flex: 1;
+
+    padding: 20px 25px;
+
+}
+
+
+.weekly-bonus-info h3 {
+
+    margin: 0 0 8px;
+
+    font-size: 1.4rem;
+
+    font-weight: 900;
+
+    letter-spacing: 0.5px;
+
+}
+
+
+.weekly-bonus-info p {
+
+    margin: 0;
+
+    font-size: 0.95rem;
+
+    color: #555;
+
+}
+
+
+/* ============================================================
+   BONUS STATS
+   ============================================================ */
+
+.weekly-bonus-stat {
+
+    width: 120px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+
+.weekly-bonus-stat strong {
+
+    font-size: 1.5rem;
+
+    font-weight: 900;
+
+}
+
+
+.weekly-bonus-stat span {
+
+    margin-top: 3px;
+
+    font-size: 0.7rem;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    color: #666;
+
+}
