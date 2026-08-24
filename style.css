@@ -764,8 +764,8 @@ header p {
 }
 
 .manager-trophy img {
-    width: 45px;
-    height: 45px;
+    width: 20px;
+    height: 20px;
     object-fit: contain;
     margin: 0;
 }
