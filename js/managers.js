@@ -126,7 +126,7 @@ Promise.all([
 
                     ? `
 
-                        <div class="manager-championships">
+                        <div class="manager-trophies">
 
                             ${finishes
                                 .map(
@@ -177,7 +177,7 @@ Promise.all([
                                             >
 
                                                 <img
-                                                    class="championship-trophy"
+                                                    class="manager-trophy"
                                                     src="images/${trophy}"
                                                     alt="${label}"
                                                 >
