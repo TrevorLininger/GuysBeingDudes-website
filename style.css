@@ -2337,7 +2337,7 @@ header p {
 
     flex-shrink: 0;
 
-    background: #f2f2f2;
+    padding: 12px;
 
 }
 
@@ -2348,7 +2348,9 @@ header p {
 
     height: 100%;
 
-    object-fit: cover;
+    object-fit: contain;
+
+    display: block;
 
 }
 
