@@ -3,7 +3,7 @@
         "week": 1,
         "name": "Hot Start",
         "description": "Team with the most total points scored",
-        "image": "images/hot-start.png",
+        "image": "hot-start.png",
         "entries": 5, 
         "payout": 25 
     },
@@ -11,7 +11,7 @@
         "week": 2,
         "name": "Matchup Blues",
         "description": "Highest team score in a loss",
-        "image": "images/blues.png",
+        "image": "matchup-blues.png",
         "entries": 0, 
         "payout": 0
     },
@@ -19,7 +19,7 @@
         "week": 3,
         "name": "Bench Warmer",
         "description": "Team with the highest scoring player on their bench",
-        "image": "images/bench-warmer.png",
+        "image": "bench.png",
         "entries": 0, 
         "payout": 0
     },
@@ -27,7 +27,7 @@
         "week": 4,
         "name": "Beast Mode",
         "description": "Most points by one active Running Back",
-        "image": "beast-mode.jpg",
+        "image": "beast.png",
         "entries": 0, 
         "payout": 0
     },
@@ -35,7 +35,7 @@
         "week": 5,
         "name": "Lucky Duck",
         "description": "Lowest score in a win",
-        "image": "lucky-duck.jpg",
+        "image": "lucky-duck.png",
         "entries": 0, 
         "payout": 0
     },
@@ -43,7 +43,7 @@
         "week": 6,
         "name": "The Sheriff",
         "description": "Most points scored by an active Quarterback",
-        "image": "sheriff.jpg",
+        "image": "sheriff-2.png",
         "entries": 0, 
         "payout": 0
     },
@@ -59,7 +59,7 @@
         "week": 8,
         "name": "The Flex",
         "description": "Most points by a RB/WR/TE in one of your FLEX positions",
-        "image": "flex.jpg",
+        "image": "flex.png",
         "entries": 0, 
         "payout": 0
     },
@@ -67,7 +67,7 @@
         "week": 9,
         "name": "Nice Hands",
         "description": "Most points by an active Wide Receiver",
-        "image": "",
+        "image": "catch.png",
         "entries": 0, 
         "payout": 0
     },
@@ -75,7 +75,7 @@
         "week": 10,
         "name": "Blowout",
         "description": "Largest margin of victory",
-        "image": "",
+        "image": "blowout.png",
         "entries": 0, 
         "payout": 0
     },
@@ -83,7 +83,7 @@
         "week": 11,
         "name": "The Longest Yard",
         "description": "Active WR/TE/RB with the most TOTAL yards",
-        "image": "",
+        "image": "runer.png",
         "entries": 0, 
         "payout": 0
     },
@@ -91,15 +91,15 @@
         "week": 12,
         "name": "One-Two Punch",
         "description": "Highest combined total yardage RB1 and RB2 positions",
-        "image": "",
+        "image": "boxing.png",
         "entries": 0, 
         "payout": 0
     },
     {
         "week": 13,
-        "name": "Pick Six",
+        "name": "D-FENCE",
         "description": "Most points by an active Defense",
-        "image": "",
+        "image": "fence.png",
         "entries": 0, 
         "payout": 0
     },
@@ -107,7 +107,7 @@
         "week": 14,
         "name": "Tighty Whities",
         "description": "Most poitns by an active Tight End",
-        "image": "",
+        "image": "tighty-whities.png",
         "entries": 0, 
         "payout": 0
     }
