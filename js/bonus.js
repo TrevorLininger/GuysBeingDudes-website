@@ -32,6 +32,16 @@ fetch("data/bonus.json")
             card.className =
                 "weekly-bonus-card";
 
+            const winnerHTML =
+                bonus.winner &&
+                bonus.winner !== "TBD"
+                    ? `
+            <div class="weekly-bonus-winner">
+                <strong>WINNER</strong>
+                <span>${bonus.winner}</span>
+            </div>
+          `
+        : "";    
 
             card.innerHTML = `
 
@@ -58,6 +68,7 @@ fetch("data/bonus.json")
                     <p>
                         ${bonus.description}
                     </p>
+                    ${winnerHTML}
 
                 </div>
 
