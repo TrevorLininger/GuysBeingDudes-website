@@ -43,79 +43,32 @@
 
 <main class="dashboard">
 
-    <section class="draft-info-section">
+    <section class="season-info-section">
 
-    <h2>Draft Info</h2>
+    <h2>2026 Season</h2>
 
-    <div class="draft-info-container">
+    <div class="season-info-container">
 
-        <!-- LEFT COLUMN -->
-        <div class="draft-details">
+        <!-- CURRENT STANDINGS -->
+        <div class="standings-card">
 
-            <div class="draft-card">
-                <h3>Draft Date</h3>
-                <p>Sunday, August 30, 2026</p>
-                <span>3:25 PM</span>
-            </div>
+            <h3>Current Standings</h3>
 
-            <div class="draft-card countdown-card">
-                <h3>Countdown</h3>
-
-                <div id="draft-countdown">
-                    <div>
-                        <strong id="days">00</strong>
-                        <span>Days</span>
-                    </div>
-
-                    <div>
-                        <strong id="hours">00</strong>
-                        <span>Hours</span>
-                    </div>
-
-                    <div>
-                        <strong id="minutes">00</strong>
-                        <span>Minutes</span>
-                    </div>
-
-                    <div>
-                        <strong id="seconds">00</strong>
-                        <span>Seconds</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="draft-card">
-                <h3>Draft Location</h3>
-                 <img 
-                    src="images/transport.png" 
-                    alt="Transport Brewery"
-                    class="brewery-logo"
-                >
-                <p class="draft-location-city">Shawnee, KS</p>
+            <div id="current-standings">
+                <!-- Standings loaded by JavaScript -->
             </div>
 
         </div>
 
 
-        <!-- RIGHT COLUMN -->
-        <div class="draft-order-card">
+        <!-- WEEK 1 HIGHLIGHTS -->
+        <div class="week-highlights-card">
 
-            <h3>Draft Order</h3>
+            <h3>Week 1 Highlights</h3>
 
-            <ol>
-                <li>Hayden Jenkins</li>
-                <li>Ryker Johnson</li>
-                <li>Justin Madsen</li>
-                <li>Gage Kiesling</li>
-                <li>Nick Yarbrough</li>
-                <li>Wes Summers</li>
-                <li>Jim Joyner</li>
-                <li>Trevor Lininger</li>
-                <li>Kip Unruh</li>
-                <li>Matt Bush</li>
-                <li>Austin Chisam</li>
-                <li>Lake Johnson</li>
-            </ol>
+            <div id="week-1-highlights">
+                <!-- Highlights loaded by JavaScript -->
+            </div>
 
         </div>
 
@@ -211,6 +164,7 @@
     <script src="script.js"></script>
     <script src="js/manager.js"></script>
     <script src="js/bonus.js"></script>
+    <script src="js/season.js"></script>
 
 </body>
 </html>

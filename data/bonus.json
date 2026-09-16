@@ -10,11 +10,11 @@
     },
     {
         "week": 2,
-        "name": "Matchup Blues",
-        "description": "Highest team score in a loss",
-        "image": "matchup-blues.png",
-        "entries": 3, 
-        "payout": 15,
+        "name": "Big TD's",
+        "description": "Most total touchdowns from your starting lineup",
+        "image": "touchdown.png",
+        "entries": 4, 
+        "payout": 20,
         "winner": "TBD"
     },
     {
@@ -22,16 +22,17 @@
         "name": "Bench Warmer",
         "description": "Team with the highest scoring player on their bench",
         "image": "bench.png",
-        "entries": 0, 
-        "payout": 0
+        "entries": 3, 
+        "payout": 15,
+        "winner": "TBD"
     },
     {
         "week": 4,
         "name": "Beast Mode",
         "description": "Most points by one active Running Back",
         "image": "beast.png",
-        "entries": 0, 
-        "payout": 0,
+        "entries": 3, 
+        "payout": 15,
         "winner": "TBD"
     },
     {
@@ -39,8 +40,8 @@
         "name": "Lucky Duck",
         "description": "Lowest score in a win",
         "image": "lucky-duck.png",
-        "entries": 0, 
-        "payout": 0,
+        "entries": 2, 
+        "payout": 10,
         "winner": "TBD"
     },
     {

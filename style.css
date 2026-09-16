@@ -2435,3 +2435,130 @@ header p {
     color: #666;
 
 }
+
+/* ============================= */
+/* 2026 SEASON INFO              */
+/* ============================= */
+
+.season-info-section {
+    margin-top: 30px;
+    padding: 0 20px 20px;
+}
+
+.season-info-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.season-info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.standings-card,
+.week-highlights-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.standings-card h3,
+.week-highlights-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+/* ============================= */
+/* CURRENT STANDINGS              */
+/* ============================= */
+
+.standing-row {
+    display: grid;
+    grid-template-columns: 35px 1fr 65px 75px;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.standing-row:last-child {
+    border-bottom: none;
+}
+
+.standing-rank {
+    font-weight: 900;
+    text-align: center;
+}
+
+.standing-team {
+    font-weight: 700;
+}
+
+.standing-record {
+    text-align: center;
+    font-weight: 700;
+}
+
+.standing-power {
+    text-align: right;
+    font-weight: 700;
+}
+
+
+/* ============================= */
+/* WEEK 1 HIGHLIGHTS              */
+/* ============================= */
+
+.week-highlight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.week-highlight:last-child {
+    border-bottom: none;
+}
+
+.week-highlight-label {
+    font-weight: 700;
+}
+
+.week-highlight-value {
+    font-weight: 900;
+    text-align: right;
+}
+
+
+/* ============================= */
+/* MOBILE                        */
+/* ============================= */
+
+@media (max-width: 800px) {
+
+    .season-info-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .standing-row {
+        grid-template-columns: 30px 1fr 55px;
+    }
+
+    .standing-points {
+        display: none;
+    }
+
+}

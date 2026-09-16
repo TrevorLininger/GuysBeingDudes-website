@@ -1,0 +1,62 @@
+[
+    {
+        "managerID": 1,
+        "espnRank": 5,
+        "fpRank": 9
+    },
+    {
+        "managerID": 2,
+        "espnRank": 10,
+        "fpRank": 10
+    },
+    {
+        "managerID": 3,
+        "espnRank": 7,
+        "fpRank": 3
+    },
+    {
+        "managerID": 4,
+        "espnRank": 3,
+        "fpRank": 2
+    },
+    {
+        "managerID": 5,
+        "espnRank": 4,
+        "fpRank": 1
+    },
+    {
+        "managerID": 6,
+        "espnRank": 12,
+        "fpRank": 7
+    },
+    {
+        "managerID": 7,
+        "espnRank": 6,
+        "fpRank": 4
+    },
+    {
+        "managerID": 8,
+        "espnRank": 9,
+        "fpRank": 11
+    },
+    {
+        "managerID": 9,
+        "espnRank": 1,
+        "fpRank": 6
+    },
+    {
+        "managerID": 10,
+        "espnRank": 8,
+        "fpRank": 5
+    }
+    ,{
+        "managerID": 11,
+        "espnRank": 2,
+        "fpRank": 8
+    }
+    ,{
+        "managerID": 12,
+        "espnRank": 11,
+        "fpRank": 12
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "week": 1,
+        "highScoringTeam": {
+            "name": "Cousins Lover",
+            "score": 174.1
+        },
+        "lowScoringTeam": {
+            "name": "Tune Squad",
+            "score": 83.76
+        },
+        "topPlayers": [
+            {
+                "name": "Josh Allen",
+                "team": "Andy Reid Clock MGMT",
+                "points": 37.7
+            },
+            {
+                "name": "Kenneth Walker III",
+                "team": "Cousins Lover",
+                "points": 37.6
+            },
+            {
+                "name": "Caleb Williams",
+                "team": "TD Milk",
+                "points": 37.3
+            }
+        ]
+    }
+]

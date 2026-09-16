@@ -1,0 +1,968 @@
+{
+  "season": 2026,
+  "leagueName": "Guys Being Dudes",
+  "teams": [
+    {
+      "id": 1,
+      "name": "Gage  Of Inches",
+      "manager": "Gage Kiesling",
+      "abbreviation": "KIES",
+      "wins": 0,
+      "losses": 2,
+      "pointsFor": 121.4,
+      "managerID": 10
+    },
+    {
+      "id": 2,
+      "name": "Andy Reid Clock MGMT",
+      "manager": "Jim Joyner",
+      "abbreviation": "JOY",
+      "wins": 0,
+      "losses": 2,
+      "pointsFor": 106.56,
+      "managerID": 2
+    },
+    {
+      "id": 4,
+      "name": "The Reid Rockets",
+      "manager": "Austin Chisam",
+      "abbreviation": "Chis",
+      "wins": 2,
+      "losses": 0,
+      "pointsFor": 139.5,
+      "managerID": 11
+    },
+    {
+      "id": 5,
+      "name": "Taco Corp",
+      "manager": "Lake Johnson",
+      "abbreviation": "TACO",
+      "wins": 2,
+      "losses": 0,
+      "pointsFor": 138.82,
+      "managerID": 1
+    },
+    {
+      "id": 6,
+      "name": "Eaton Boutte",
+      "manager": "",
+      "abbreviation": "ASS",
+      "wins": 1,
+      "losses": 1,
+      "pointsFor": 142.82,
+      "managerID": 7
+    },
+    {
+      "id": 7,
+      "name": "TD's for Harambe",
+      "manager": "Trevor Lininger",
+      "abbreviation": "DO4H",
+      "wins": 0,
+      "losses": 2,
+      "pointsFor": 93.86,
+      "managerID": 6
+    },
+    {
+      "id": 8,
+      "name": "Cousins  Lover",
+      "manager": "",
+      "abbreviation": "LOVE",
+      "wins": 2,
+      "losses": 0,
+      "pointsFor": 174.1,
+      "managerID": 5
+    },
+    {
+      "id": 9,
+      "name": "Travis Swifties",
+      "manager": "Justin Madsen",
+      "abbreviation": "MADS",
+      "wins": 2,
+      "losses": 0,
+      "pointsFor": 155.26,
+      "managerID": 9
+    },
+    {
+      "id": 10,
+      "name": "Bo-n*rs",
+      "manager": "Ryker Johnson",
+      "abbreviation": "BO",
+      "wins": 1,
+      "losses": 1,
+      "pointsFor": 125.44,
+      "managerID": 3
+    },
+    {
+      "id": 11,
+      "name": "Tune Squad",
+      "manager": "Kip Unruh",
+      "abbreviation": "POOh",
+      "wins": 0,
+      "losses": 2,
+      "pointsFor": 83.76,
+      "managerID": 8
+    },
+    {
+      "id": 12,
+      "name": "That Was Legetteness",
+      "manager": "Matt Bush",
+      "abbreviation": "BUSH",
+      "wins": 0,
+      "losses": 2,
+      "pointsFor": 124.3,
+      "managerID": 12
+    },
+    {
+      "id": 13,
+      "name": "TD Milk",
+      "manager": "Hayden Jenkins",
+      "abbreviation": "Milk",
+      "wins": 2,
+      "losses": 0,
+      "pointsFor": 153.16,
+      "managerID": 4
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 139.5,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 124.3,
+      "winner": "AWAY"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Eaton Boutte",
+      "awayTeamId": 6,
+      "awayScore": 142.82,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 155.26,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 106.56,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 174.1,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 93.86,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 153.16,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 83.76,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 125.44,
+      "winner": "HOME"
+    },
+    {
+      "week": 1,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 138.82,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 121.4,
+      "winner": "AWAY"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Eaton Boutte",
+      "awayTeamId": 6,
+      "awayScore": 0,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 2,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 0,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 0,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 0,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 2,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 0,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 2,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 3,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 0,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 0,
+      "homeTeam": "Eaton Boutte",
+      "homeTeamId": 6,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 0,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 0,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 0,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 3,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 4,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 0,
+      "homeTeam": "Eaton Boutte",
+      "homeTeamId": 6,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 0,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 4,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 0,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 4,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 0,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 4,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 0,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 0,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 0,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 0,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Eaton Boutte",
+      "awayTeamId": 6,
+      "awayScore": 0,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 5,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 0,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 0,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 0,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 6,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 0,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 0,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 6,
+      "awayTeam": "Eaton Boutte",
+      "awayTeamId": 6,
+      "awayScore": 0,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 6,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 0,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 7,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 0,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 7,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 0,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 0,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 7,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 0,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 7,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 0,
+      "homeTeam": "Eaton Boutte",
+      "homeTeamId": 6,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 0,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Taco Corp",
+      "awayTeamId": 5,
+      "awayScore": 0,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 0,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 8,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 0,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 8,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 0,
+      "homeTeam": "Eaton Boutte",
+      "homeTeamId": 6,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 9,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 0,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 0,
+      "homeTeam": "Eaton Boutte",
+      "homeTeamId": 6,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 0,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 9,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 0,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 9,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 9,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 0,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "The Reid Rockets",
+      "homeTeamId": 4,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 0,
+      "homeTeam": "Eaton Boutte",
+      "homeTeamId": 6,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 0,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 0,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 0,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 10,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 0,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 0,
+      "homeTeam": "Andy Reid Clock MGMT",
+      "homeTeamId": 2,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 0,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Eaton Boutte",
+      "awayTeamId": 6,
+      "awayScore": 0,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 0,
+      "homeTeam": "Bo-n*rs",
+      "homeTeamId": 10,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 0,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 11,
+      "awayTeam": "Tune Squad",
+      "awayTeamId": 11,
+      "awayScore": 0,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 0,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 0,
+      "homeTeam": "Eaton Boutte",
+      "homeTeamId": 6,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 0,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 0,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 12,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 0,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 0,
+      "homeTeam": "That Was Legetteness",
+      "homeTeamId": 12,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Travis Swifties",
+      "awayTeamId": 9,
+      "awayScore": 0,
+      "homeTeam": "Eaton Boutte",
+      "homeTeamId": 6,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "awayTeam": "TD's for Harambe",
+      "awayTeamId": 7,
+      "awayScore": 0,
+      "homeTeam": "TD Milk",
+      "homeTeamId": 13,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 0,
+      "homeTeam": "Cousins  Lover",
+      "homeTeamId": 8,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 13,
+      "awayTeam": "Gage  Of Inches",
+      "awayTeamId": 1,
+      "awayScore": 0,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Andy Reid Clock MGMT",
+      "awayTeamId": 2,
+      "awayScore": 0,
+      "homeTeam": "Eaton Boutte",
+      "homeTeamId": 6,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "awayTeam": "The Reid Rockets",
+      "awayTeamId": 4,
+      "awayScore": 0,
+      "homeTeam": "Taco Corp",
+      "homeTeamId": 5,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "awayTeam": "That Was Legetteness",
+      "awayTeamId": 12,
+      "awayScore": 0,
+      "homeTeam": "Tune Squad",
+      "homeTeamId": 11,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Bo-n*rs",
+      "awayTeamId": 10,
+      "awayScore": 0,
+      "homeTeam": "TD's for Harambe",
+      "homeTeamId": 7,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "awayTeam": "Cousins  Lover",
+      "awayTeamId": 8,
+      "awayScore": 0,
+      "homeTeam": "Gage  Of Inches",
+      "homeTeamId": 1,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    },
+    {
+      "week": 14,
+      "awayTeam": "TD Milk",
+      "awayTeamId": 13,
+      "awayScore": 0,
+      "homeTeam": "Travis Swifties",
+      "homeTeamId": 9,
+      "homeScore": 0,
+      "winner": "UNDECIDED"
+    }
+  ]
+}
