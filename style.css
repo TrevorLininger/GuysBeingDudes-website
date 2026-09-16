@@ -2504,7 +2504,7 @@ header p {
 
 .standings-header {
     display: grid;
-    grid-template-columns: 38px minmax(0, 1fr) 60px 65px 65px;
+    grid-template-columns: 38px minmax(0, 1fr) 70px 95px 95px;
 
     align-items: center;
 
@@ -2533,7 +2533,7 @@ header p {
 
 .standing-row {
     display: grid;
-    grid-template-columns: 38px minmax(0, 1fr) 60px 65px 65px;
+    grid-template-columns: 38px minmax(0, 1fr) 70px 95px 95px;
 
     align-items: center;
 
@@ -2604,43 +2604,43 @@ header p {
 
 
 /* ========================================================= */
-/* HIGHLIGHTS                                                */
+/* WEEK HIGHLIGHTS                                           */
 /* ========================================================= */
 
 .week-highlight {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 
     margin: 0 15px;
-    padding: 15px 5px;
+    padding: 18px 10px;
 
     border-bottom: 1px solid #e1e1e1;
 }
 
 .week-highlight-label {
-    font-size: 0.72rem;
+    margin-bottom: 5px;
+
+    font-size: 0.68rem;
     font-weight: 900;
 
     text-transform: uppercase;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.8px;
 
     color: #777;
 }
 
-.week-highlight-value {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+.week-highlight-team {
+    font-size: 1rem;
+    font-weight: 900;
 
-    text-align: right;
-
-    font-size: 0.9rem;
-    font-weight: 800;
+    text-align: center;
 }
 
-.week-highlight-value strong {
-    font-size: 1.15rem;
+.week-highlight-score {
+    margin-top: 2px;
+
+    font-size: 1.35rem;
     font-weight: 900;
 }
 

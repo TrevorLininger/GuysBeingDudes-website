@@ -91,34 +91,36 @@ if (standingsContainer) {
 
                 <div class="week-highlight">
 
-                    <div class="week-highlight-label">
-                        High Scoring Team
-                    </div>
+    <div class="week-highlight-label">
+        High Scoring Team
+    </div>
 
-                    <div class="week-highlight-value">
-                        ${weekOne.highScoringTeam.name}
-                        <strong>
-                            ${weekOne.highScoringTeam.score}
-                        </strong>
-                    </div>
+    <div class="week-highlight-team">
+        ${weekOne.highScoringTeam.name}
+    </div>
 
-                </div>
+    <div class="week-highlight-score">
+        ${weekOne.highScoringTeam.score}
+    </div>
+
+</div>
 
 
                 <div class="week-highlight">
 
-                    <div class="week-highlight-label">
-                        Low Scoring Team
-                    </div>
+    <div class="week-highlight-label">
+        Low Scoring Team
+    </div>
 
-                    <div class="week-highlight-value">
-                        ${weekOne.lowScoringTeam.name}
-                        <strong>
-                            ${weekOne.lowScoringTeam.score}
-                        </strong>
-                    </div>
+    <div class="week-highlight-team">
+        ${weekOne.lowScoringTeam.name}
+    </div>
 
-                </div>
+    <div class="week-highlight-score">
+        ${weekOne.lowScoringTeam.score}
+    </div>
+
+</div>
 
 
                 <div class="top-players">
