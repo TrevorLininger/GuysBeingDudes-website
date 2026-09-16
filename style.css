@@ -2436,114 +2436,334 @@ header p {
 
 }
 
-/* ============================= */
-/* 2026 SEASON INFO              */
-/* ============================= */
+/* ========================================================= */
+/* 2026 SEASON DASHBOARD                                    */
+/* ========================================================= */
 
 .season-info-section {
-    margin-top: 30px;
-    padding: 0 20px 20px;
+    margin: 45px auto 30px;
+    padding: 0 20px 25px;
+    max-width: 1300px;
 }
 
+/* MAIN SECTION TITLE */
+
 .season-info-section h2 {
+    margin: 0 0 25px;
     text-align: center;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
+
+/* TWO-COLUMN LAYOUT */
 
 .season-info-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: 24px;
+    align-items: stretch;
 }
+
+
+/* ========================================================= */
+/* CARDS                                                     */
+/* ========================================================= */
 
 .standings-card,
 .week-highlights-card {
     background: #ffffff;
-    border-radius: 12px;
-    padding: 20px 25px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.10);
 }
+
+/* CARD HEADERS */
 
 .standings-card h3,
 .week-highlights-card h3 {
-    margin-top: 0;
-    margin-bottom: 15px;
-    text-align: center;
+    margin: 0;
+    padding: 15px 20px;
+    background: #171717;
+    color: #ffffff;
+
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    border-bottom: 4px solid #f4761d;
 }
 
 
-/* ============================= */
-/* CURRENT STANDINGS              */
-/* ============================= */
+/* ========================================================= */
+/* STANDINGS TABLE                                           */
+/* ========================================================= */
+
+.standings-header {
+    display: grid;
+    grid-template-columns: 38px minmax(0, 1fr) 60px 65px 65px;
+
+    align-items: center;
+
+    padding: 11px 15px;
+
+    background: #f3f3f3;
+    border-bottom: 2px solid #d5d5d5;
+
+    font-size: 0.68rem;
+    font-weight: 900;
+
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.standings-header div {
+    text-align: center;
+}
+
+.standings-header div:nth-child(2) {
+    text-align: left;
+}
+
+
+/* INDIVIDUAL TEAM ROW */
 
 .standing-row {
     display: grid;
-    grid-template-columns: 35px 1fr 65px 75px;
-    align-items: center;
-    gap: 10px;
+    grid-template-columns: 38px minmax(0, 1fr) 60px 65px 65px;
 
-    padding: 10px 5px;
-    border-bottom: 1px solid #ddd;
+    align-items: center;
+
+    min-height: 48px;
+
+    padding: 0 15px;
+
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .standing-row:last-child {
     border-bottom: none;
 }
 
+
+/* RANK */
+
 .standing-rank {
+    font-size: 0.85rem;
     font-weight: 900;
     text-align: center;
 }
 
+
+/* TEAM */
+
 .standing-team {
-    font-weight: 700;
+    min-width: 0;
+
+    font-size: 0.88rem;
+    font-weight: 800;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+
+/* RECORD */
 
 .standing-record {
     text-align: center;
-    font-weight: 700;
+
+    font-size: 0.85rem;
+    font-weight: 900;
 }
+
+
+/* POWER RANKINGS */
 
 .standing-power {
-    text-align: right;
-    font-weight: 700;
+    justify-self: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+
+    background: #f1f1f1;
+
+    font-size: 0.8rem;
+    font-weight: 900;
 }
 
 
-/* ============================= */
-/* WEEK 1 HIGHLIGHTS              */
-/* ============================= */
+/* ========================================================= */
+/* HIGHLIGHTS                                                */
+/* ========================================================= */
 
 .week-highlight {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 
-    padding: 12px 5px;
-    border-bottom: 1px solid #ddd;
-}
+    margin: 0 15px;
+    padding: 15px 5px;
 
-.week-highlight:last-child {
-    border-bottom: none;
+    border-bottom: 1px solid #e1e1e1;
 }
 
 .week-highlight-label {
-    font-weight: 700;
+    font-size: 0.72rem;
+    font-weight: 900;
+
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+
+    color: #777;
 }
 
 .week-highlight-value {
-    font-weight: 900;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
     text-align: right;
+
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.week-highlight-value strong {
+    font-size: 1.15rem;
+    font-weight: 900;
 }
 
 
-/* ============================= */
-/* MOBILE                        */
-/* ============================= */
+/* ========================================================= */
+/* TOP PLAYERS                                               */
+/* ========================================================= */
 
-@media (max-width: 800px) {
+.top-players {
+    padding: 18px 15px 15px;
+}
+
+.top-players h4 {
+    margin: 0 0 10px;
+
+    font-size: 0.72rem;
+    font-weight: 900;
+
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+
+    color: #777;
+}
+
+
+/* PLAYER ROW */
+
+.top-player {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 11px 8px;
+
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
+
+    margin-bottom: 8px;
+
+    background: #fafafa;
+}
+
+.top-player:last-child {
+    margin-bottom: 0;
+}
+
+
+/* PLAYER RANK */
+
+.top-player-rank {
+    width: 25px;
+
+    font-size: 0.85rem;
+    font-weight: 900;
+
+    text-align: center;
+}
+
+
+/* PLAYER INFORMATION */
+
+.top-player-info {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+}
+
+.top-player-info strong {
+    font-size: 0.88rem;
+    font-weight: 900;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.top-player-info span {
+    margin-top: 2px;
+
+    font-size: 0.7rem;
+
+    color: #777;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* PLAYER POINTS */
+
+.top-player-points {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    min-width: 55px;
+}
+
+.top-player-points strong {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.top-player-points span {
+    font-size: 0.58rem;
+    font-weight: 800;
+
+    letter-spacing: 0.5px;
+
+    color: #888;
+}
+
+
+/* ========================================================= */
+/* MOBILE                                                    */
+/* ========================================================= */
+
+@media (max-width: 900px) {
 
     .season-info-container {
         grid-template-columns: 1fr;
@@ -2551,14 +2771,60 @@ header p {
 
 }
 
-@media (max-width: 500px) {
 
-    .standing-row {
-        grid-template-columns: 30px 1fr 55px;
+@media (max-width: 600px) {
+
+    .season-info-section {
+        padding: 0 12px 20px;
     }
 
-    .standing-points {
-        display: none;
+    .season-info-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .standings-header,
+    .standing-row {
+        grid-template-columns: 30px minmax(0, 1fr) 50px 50px 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .standing-team {
+        font-size: 0.78rem;
+    }
+
+    .standing-power {
+        width: 27px;
+        height: 27px;
+
+        font-size: 0.72rem;
+    }
+
+    .standings-header {
+        font-size: 0.58rem;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+    .standings-header,
+    .standing-row {
+        grid-template-columns: 25px minmax(0, 1fr) 45px 45px 45px;
+    }
+
+    .standing-team {
+        font-size: 0.72rem;
+    }
+
+    .week-highlight-value {
+        gap: 7px;
+        font-size: 0.78rem;
+    }
+
+    .week-highlight-value strong {
+        font-size: 1rem;
     }
 
 }
