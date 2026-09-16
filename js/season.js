@@ -77,6 +77,7 @@ if (standingsContainer) {
 
     const highlightsContainer =
         document.getElementById("week-highlights-container");
+    console.log("HIGHLIGHTS CONTAINER:", highlightsContainer);
 
     if (highlightsContainer) {
 
