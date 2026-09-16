@@ -2442,8 +2442,8 @@ header p {
 
 .season-info-section {
     margin: 45px auto 30px;
-    padding: 0 20px 25px;
-    max-width: 1300px;
+    padding: 0 30px 25px;
+    max-width: 1500px;
 }
 
 /* MAIN SECTION TITLE */
@@ -2461,7 +2461,7 @@ header p {
 
 .season-info-container {
     display: grid;
-    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    grid-template-columns: minmax(650px, 2fr) minmax(350px, 1fr);
     gap: 24px;
     align-items: stretch;
 }
