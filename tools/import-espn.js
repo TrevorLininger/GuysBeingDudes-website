@@ -16,7 +16,7 @@ const managerNames = {
     "Travis Swifties": "Justin Madsen",
     "Bo-n*rs": "Ryker Johnson",
     "Tune Squad": "Kip Unruh",
-    "That Was Legetteness": "Matt Bush",
+    "Silence of the Lamb": "Matt Bush",
     "TD Milk": "Hayden Jenkins"
 }
 
