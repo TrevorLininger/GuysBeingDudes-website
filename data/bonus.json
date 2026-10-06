@@ -15,82 +15,73 @@
         "image": "touchdown.png",
         "entries": 4, 
         "payout": 20,
-        "winner": "TBD"
+        "winner": "Nick"
     },
     {
         "week": 3,
-        "name": "Bench Warmer",
-        "description": "Team with the highest scoring player on their bench",
-        "image": "bench.png",
-        "entries": 3, 
-        "payout": 15,
-        "winner": "TBD"
-    },
-    {
-        "week": 4,
         "name": "Beast Mode",
         "description": "Most points by one active Running Back",
         "image": "beast.png",
+        "entries": 5, 
+        "payout": 25,
+        "winner": "Ryker"
+    },
+    {
+        "week": 4,
+        "name": "Lucky Duck",
+        "description": "Lowest score in a win",
+        "image": "lucky-duck.png",
+        "entries": 5, 
+        "payout": 25,
+        "winner": "Nick"
+    },
+    {
+        "week": 5,
+        "name": "The Sheriff",
+        "description": "Most points scored by an active Quarterback",
+        "image": "sheriff-2.png",
+        "entries": 4, 
+        "payout": 20,
+        "winner": "TBD"
+    },
+    {
+        "week": 6,
+        "name": "Photo Finish",
+        "description": "Narrowest margin of victory",
+        "image": "camera.png",
         "entries": 3, 
         "payout": 15,
         "winner": "TBD"
     },
     {
-        "week": 5,
-        "name": "Lucky Duck",
-        "description": "Lowest score in a win",
-        "image": "lucky-duck.png",
+        "week": 7,
+        "name": "The Flex",
+        "description": "Most points by a RB/WR/TE in one of your FLEX positions",
+        "image": "flex.png",
+        "entries": 3, 
+        "payout": 15,
+        "winner": "TBD"
+    },
+    {
+        "week": 8,
+        "name": "Nice Hands",
+        "description": "Most points by an active Wide Receiver",
+        "image": "catch.png",
         "entries": 2, 
         "payout": 10,
         "winner": "TBD"
     },
     {
-        "week": 6,
-        "name": "The Sheriff",
-        "description": "Most points scored by an active Quarterback",
-        "image": "sheriff-2.png",
-        "entries": 0, 
-        "payout": 0,
-        "winner": "TBD"
-    },
-    {
-        "week": 7,
-        "name": "Photo Finish",
-        "description": "Narrowest margin of victory",
-        "image": "camera.png",
-        "entries": 0, 
-        "payout": 0,
-        "winner": "TBD"
-    },
-    {
-        "week": 8,
-        "name": "The Flex",
-        "description": "Most points by a RB/WR/TE in one of your FLEX positions",
-        "image": "flex.png",
-        "entries": 0, 
-        "payout": 0,
-        "winner": "TBD"
-    },
-    {
         "week": 9,
-        "name": "Nice Hands",
-        "description": "Most points by an active Wide Receiver",
-        "image": "catch.png",
-        "entries": 0, 
-        "payout": 0,
+        "name": "Blowout",
+        "description": "Largest margin of victory",
+        "image": "blowout.png",
+        "entries": 2, 
+        "payout": 10,
         "winner": "TBD"
     },
     {
         "week": 10,
-        "name": "Blowout",
-        "description": "Largest margin of victory",
-        "image": "blowout.png",
-        "entries": 0, 
-        "payout": 0,
-        "winner": "TBD"
-    },
-    {
-        "week": 11,
         "name": "The Longest Yard",
         "description": "Active WR/TE/RB with the most TOTAL yards",
         "image": "runner.png",
@@ -99,7 +90,7 @@
         "winner": "TBD"
     },
     {
-        "week": 12,
+        "week": 11,
         "name": "One-Two Punch",
         "description": "Highest combined total yardage RB1 and RB2 positions",
         "image": "boxing.png",
@@ -108,7 +99,7 @@
         "winner": "TBD"
     },
     {
-        "week": 13,
+        "week": 12,
         "name": "D-FENCE",
         "description": "Most points by an active Defense",
         "image": "fence.png",
@@ -117,10 +108,19 @@
         "winner": "TBD"
     },
     {
-        "week": 14,
+        "week": 13,
         "name": "Tighty Whities",
         "description": "Most poitns by an active Tight End",
         "image": "tighty-whities.png",
+        "entries": 0, 
+        "payout": 0,
+        "winner": "TBD"
+    },
+    {
+        "week": 14,
+        "name": "Strong Finish",
+        "description": "Team with the most total points scored",
+        "image": "hot-start.png",
         "entries": 0, 
         "payout": 0,
         "winner": "TBD"

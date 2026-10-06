@@ -7,120 +7,108 @@
       "name": "Gage  Of Inches",
       "manager": "Gage Kiesling",
       "abbreviation": "KIES",
-      "wins": 0,
-      "losses": 2,
-      "pointsFor": 121.4,
-      "managerID": 10
+      "wins": 5,
+      "losses": 3,
+      "pointsFor": 512.52
     },
     {
       "id": 2,
       "name": "Andy Reid Clock MGMT",
       "manager": "Jim Joyner",
       "abbreviation": "JOY",
-      "wins": 0,
-      "losses": 2,
-      "pointsFor": 106.56,
-      "managerID": 2
+      "wins": 4,
+      "losses": 4,
+      "pointsFor": 501.76000000000005
     },
     {
       "id": 4,
       "name": "The Reid Rockets",
       "manager": "Austin Chisam",
       "abbreviation": "Chis",
-      "wins": 2,
-      "losses": 0,
-      "pointsFor": 139.5,
-      "managerID": 11
+      "wins": 4,
+      "losses": 4,
+      "pointsFor": 404.24
     },
     {
       "id": 5,
       "name": "Taco Corp",
       "manager": "Lake Johnson",
       "abbreviation": "TACO",
-      "wins": 2,
-      "losses": 0,
-      "pointsFor": 138.82,
-      "managerID": 1
+      "wins": 4,
+      "losses": 4,
+      "pointsFor": 471.7
     },
     {
       "id": 6,
       "name": "Eaton Boutte",
-      "manager": "",
+      "manager": "Wes Summers",
       "abbreviation": "ASS",
-      "wins": 1,
-      "losses": 1,
-      "pointsFor": 142.82,
-      "managerID": 7
+      "wins": 4,
+      "losses": 4,
+      "pointsFor": 530.42
     },
     {
       "id": 7,
       "name": "TD's for Harambe",
       "manager": "Trevor Lininger",
       "abbreviation": "DO4H",
-      "wins": 0,
-      "losses": 2,
-      "pointsFor": 93.86,
-      "managerID": 6
+      "wins": 1,
+      "losses": 7,
+      "pointsFor": 441.94000000000005
     },
     {
       "id": 8,
       "name": "Cousins  Lover",
-      "manager": "",
+      "manager": "Nick Yarbrough",
       "abbreviation": "LOVE",
-      "wins": 2,
+      "wins": 8,
       "losses": 0,
-      "pointsFor": 174.1,
-      "managerID": 5
+      "pointsFor": 603.66
     },
     {
       "id": 9,
       "name": "Travis Swifties",
       "manager": "Justin Madsen",
       "abbreviation": "MADS",
-      "wins": 2,
-      "losses": 0,
-      "pointsFor": 155.26,
-      "managerID": 9
+      "wins": 4,
+      "losses": 4,
+      "pointsFor": 477.34000000000003
     },
     {
       "id": 10,
       "name": "Bo-n*rs",
       "manager": "Ryker Johnson",
       "abbreviation": "BO",
-      "wins": 1,
-      "losses": 1,
-      "pointsFor": 125.44,
-      "managerID": 3
+      "wins": 5,
+      "losses": 3,
+      "pointsFor": 505.65999999999997
     },
     {
       "id": 11,
       "name": "Tune Squad",
       "manager": "Kip Unruh",
       "abbreviation": "POOh",
-      "wins": 0,
-      "losses": 2,
-      "pointsFor": 83.76,
-      "managerID": 8
+      "wins": 1,
+      "losses": 7,
+      "pointsFor": 389.4
     },
     {
       "id": 12,
-      "name": "That Was Legetteness",
+      "name": "Silence Of The Lamb",
       "manager": "Matt Bush",
       "abbreviation": "BUSH",
-      "wins": 0,
-      "losses": 2,
-      "pointsFor": 124.3,
-      "managerID": 12
+      "wins": 4,
+      "losses": 4,
+      "pointsFor": 538.28
     },
     {
       "id": 13,
       "name": "TD Milk",
       "manager": "Hayden Jenkins",
       "abbreviation": "Milk",
-      "wins": 2,
-      "losses": 0,
-      "pointsFor": 153.16,
-      "managerID": 4
+      "wins": 4,
+      "losses": 4,
+      "pointsFor": 493.64000000000004
     }
   ],
   "matchups": [
@@ -129,7 +117,7 @@
       "awayTeam": "The Reid Rockets",
       "awayTeamId": 4,
       "awayScore": 139.5,
-      "homeTeam": "That Was Legetteness",
+      "homeTeam": "Silence Of The Lamb",
       "homeTeamId": 12,
       "homeScore": 124.3,
       "winner": "AWAY"
@@ -188,181 +176,181 @@
       "week": 2,
       "awayTeam": "Eaton Boutte",
       "awayTeamId": 6,
-      "awayScore": 0,
+      "awayScore": 102.38,
       "homeTeam": "Andy Reid Clock MGMT",
       "homeTeamId": 2,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 146.82,
+      "winner": "HOME"
     },
     {
       "week": 2,
-      "awayTeam": "That Was Legetteness",
+      "awayTeam": "Silence Of The Lamb",
       "awayTeamId": 12,
-      "awayScore": 0,
+      "awayScore": 141.18,
       "homeTeam": "Tune Squad",
       "homeTeamId": 11,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 110.24,
+      "winner": "AWAY"
     },
     {
       "week": 2,
       "awayTeam": "Travis Swifties",
       "awayTeamId": 9,
-      "awayScore": 0,
+      "awayScore": 92.3,
       "homeTeam": "Gage  Of Inches",
       "homeTeamId": 1,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 119.36,
+      "winner": "HOME"
     },
     {
       "week": 2,
       "awayTeam": "Cousins  Lover",
       "awayTeamId": 8,
-      "awayScore": 0,
+      "awayScore": 167.56,
       "homeTeam": "TD Milk",
       "homeTeamId": 13,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 92.12,
+      "winner": "AWAY"
     },
     {
       "week": 2,
       "awayTeam": "The Reid Rockets",
       "awayTeamId": 4,
-      "awayScore": 0,
+      "awayScore": 43.4,
       "homeTeam": "Taco Corp",
       "homeTeamId": 5,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 131.06,
+      "winner": "HOME"
     },
     {
       "week": 2,
       "awayTeam": "Bo-n*rs",
       "awayTeamId": 10,
-      "awayScore": 0,
+      "awayScore": 111.62,
       "homeTeam": "TD's for Harambe",
       "homeTeamId": 7,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 102.98,
+      "winner": "AWAY"
     },
     {
       "week": 3,
       "awayTeam": "The Reid Rockets",
       "awayTeamId": 4,
-      "awayScore": 0,
+      "awayScore": 96.86,
       "homeTeam": "TD's for Harambe",
       "homeTeamId": 7,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 95.58,
+      "winner": "AWAY"
     },
     {
       "week": 3,
       "awayTeam": "Gage  Of Inches",
       "awayTeamId": 1,
-      "awayScore": 0,
+      "awayScore": 149.38,
       "homeTeam": "Eaton Boutte",
       "homeTeamId": 6,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 120.56,
+      "winner": "AWAY"
     },
     {
       "week": 3,
       "awayTeam": "Tune Squad",
       "awayTeamId": 11,
-      "awayScore": 0,
+      "awayScore": 111.02,
       "homeTeam": "Travis Swifties",
       "homeTeamId": 9,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 84.04,
+      "winner": "AWAY"
     },
     {
       "week": 3,
       "awayTeam": "Taco Corp",
       "awayTeamId": 5,
-      "awayScore": 0,
+      "awayScore": 92.52,
       "homeTeam": "Cousins  Lover",
       "homeTeamId": 8,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 135.1,
+      "winner": "HOME"
     },
     {
       "week": 3,
       "awayTeam": "Andy Reid Clock MGMT",
       "awayTeamId": 2,
-      "awayScore": 0,
+      "awayScore": 131.46,
       "homeTeam": "TD Milk",
       "homeTeamId": 13,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 139.68,
+      "winner": "HOME"
     },
     {
       "week": 3,
       "awayTeam": "Bo-n*rs",
       "awayTeamId": 10,
-      "awayScore": 0,
-      "homeTeam": "That Was Legetteness",
+      "awayScore": 148.34,
+      "homeTeam": "Silence Of The Lamb",
       "homeTeamId": 12,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 109.28,
+      "winner": "AWAY"
     },
     {
       "week": 4,
       "awayTeam": "TD's for Harambe",
       "awayTeamId": 7,
-      "awayScore": 0,
+      "awayScore": 149.52,
       "homeTeam": "Eaton Boutte",
       "homeTeamId": 6,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 164.66,
+      "winner": "HOME"
     },
     {
       "week": 4,
       "awayTeam": "Andy Reid Clock MGMT",
       "awayTeamId": 2,
-      "awayScore": 0,
+      "awayScore": 116.92,
       "homeTeam": "Taco Corp",
       "homeTeamId": 5,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 109.3,
+      "winner": "AWAY"
     },
     {
       "week": 4,
       "awayTeam": "The Reid Rockets",
       "awayTeamId": 4,
-      "awayScore": 0,
+      "awayScore": 124.48,
       "homeTeam": "Travis Swifties",
       "homeTeamId": 9,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 145.74,
+      "winner": "HOME"
     },
     {
       "week": 4,
       "awayTeam": "Bo-n*rs",
       "awayTeamId": 10,
-      "awayScore": 0,
+      "awayScore": 120.26,
       "homeTeam": "Gage  Of Inches",
       "homeTeamId": 1,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 122.38,
+      "winner": "HOME"
     },
     {
       "week": 4,
       "awayTeam": "Tune Squad",
       "awayTeamId": 11,
-      "awayScore": 0,
+      "awayScore": 84.38,
       "homeTeam": "Cousins  Lover",
       "homeTeamId": 8,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 126.9,
+      "winner": "HOME"
     },
     {
       "week": 4,
-      "awayTeam": "That Was Legetteness",
+      "awayTeam": "Silence Of The Lamb",
       "awayTeamId": 12,
-      "awayScore": 0,
+      "awayScore": 163.52,
       "homeTeam": "TD Milk",
       "homeTeamId": 13,
-      "homeScore": 0,
-      "winner": "UNDECIDED"
+      "homeScore": 108.68,
+      "winner": "AWAY"
     },
     {
       "week": 5,
@@ -409,7 +397,7 @@
       "awayTeam": "Eaton Boutte",
       "awayTeamId": 6,
       "awayScore": 0,
-      "homeTeam": "That Was Legetteness",
+      "homeTeam": "Silence Of The Lamb",
       "homeTeamId": 12,
       "homeScore": 0,
       "winner": "UNDECIDED"
@@ -476,7 +464,7 @@
     },
     {
       "week": 6,
-      "awayTeam": "That Was Legetteness",
+      "awayTeam": "Silence Of The Lamb",
       "awayTeamId": 12,
       "awayScore": 0,
       "homeTeam": "Travis Swifties",
@@ -536,7 +524,7 @@
     },
     {
       "week": 7,
-      "awayTeam": "That Was Legetteness",
+      "awayTeam": "Silence Of The Lamb",
       "awayTeamId": 12,
       "awayScore": 0,
       "homeTeam": "Eaton Boutte",
@@ -589,7 +577,7 @@
       "awayTeam": "TD's for Harambe",
       "awayTeamId": 7,
       "awayScore": 0,
-      "homeTeam": "That Was Legetteness",
+      "homeTeam": "Silence Of The Lamb",
       "homeTeamId": 12,
       "homeScore": 0,
       "winner": "UNDECIDED"
@@ -636,7 +624,7 @@
     },
     {
       "week": 9,
-      "awayTeam": "That Was Legetteness",
+      "awayTeam": "Silence Of The Lamb",
       "awayTeamId": 12,
       "awayScore": 0,
       "homeTeam": "Taco Corp",
@@ -706,7 +694,7 @@
     },
     {
       "week": 10,
-      "awayTeam": "That Was Legetteness",
+      "awayTeam": "Silence Of The Lamb",
       "awayTeamId": 12,
       "awayScore": 0,
       "homeTeam": "Cousins  Lover",
@@ -736,7 +724,7 @@
     },
     {
       "week": 11,
-      "awayTeam": "That Was Legetteness",
+      "awayTeam": "Silence Of The Lamb",
       "awayTeamId": 12,
       "awayScore": 0,
       "homeTeam": "TD's for Harambe",
@@ -786,7 +774,7 @@
     },
     {
       "week": 12,
-      "awayTeam": "That Was Legetteness",
+      "awayTeam": "Silence Of The Lamb",
       "awayTeamId": 12,
       "awayScore": 0,
       "homeTeam": "TD Milk",
@@ -849,7 +837,7 @@
       "awayTeam": "The Reid Rockets",
       "awayTeamId": 4,
       "awayScore": 0,
-      "homeTeam": "That Was Legetteness",
+      "homeTeam": "Silence Of The Lamb",
       "homeTeamId": 12,
       "homeScore": 0,
       "winner": "UNDECIDED"
@@ -926,7 +914,7 @@
     },
     {
       "week": 14,
-      "awayTeam": "That Was Legetteness",
+      "awayTeam": "Silence Of The Lamb",
       "awayTeamId": 12,
       "awayScore": 0,
       "homeTeam": "Tune Squad",

@@ -1,29 +1,29 @@
 [
     {
-        "week": 1,
+        "week": 4,
         "highScoringTeam": {
-            "name": "Cousins Lover",
-            "score": 174.1
+            "name": "Eaton Boutte",
+            "score": 164.66
         },
         "lowScoringTeam": {
             "name": "Tune Squad",
-            "score": 83.76
+            "score": 84.38
         },
         "topPlayers": [
             {
-                "name": "Josh Allen",
+                "name": "Tet McMillan",
+                "team": "Silence of the Lamb",
+                "points": 46.2
+            },
+            {
+                "name": "Ceedee Lamb",
+                "team": "Silence of the Lamb",
+                "points": 42.3
+            },
+            {
+                "name": "Kyren Williams",
                 "team": "Andy Reid Clock MGMT",
-                "points": 37.7
-            },
-            {
-                "name": "Kenneth Walker III",
-                "team": "Cousins Lover",
-                "points": 37.6
-            },
-            {
-                "name": "Caleb Williams",
-                "team": "TD Milk",
-                "points": 37.3
+                "points": 36.7
             }
         ]
     }

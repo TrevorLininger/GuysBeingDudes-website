@@ -4,14 +4,14 @@ const fs = require("fs");
 const path = require("path");
 
 const leagueId = 1472105;
-const season = 2017;
+const season = 2026;
 const managerNames = {
     "Taco Corp": "Lake Johnson",
     "Gage  Of Inches": "Gage Kiesling",
     "Andy Reid Clock MGMT": "Jim Joyner",
     "Cousins Lover": "Nick Yarbrough",
     "The Reid Rockets": "Austin Chisam",
-    "Dicked Down in Dallas": "Wes Summers",
+    "EAton Boutte": "Wes Summers",
     "TD's for Harambe": "Trevor Lininger",
     "Travis Swifties": "Justin Madsen",
     "Bo-n*rs": "Ryker Johnson",

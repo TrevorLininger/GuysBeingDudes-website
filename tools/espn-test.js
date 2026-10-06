@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const leagueId = 1472105;
-const season = 2025;
+const season = 2026;
 
 const url = `https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/${season}/segments/0/leagues/${leagueId}?view=mTeam&view=mMatchup&view=mSettings`;
 
