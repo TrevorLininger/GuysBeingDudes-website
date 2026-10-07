@@ -34,7 +34,7 @@ const managerIds = {
     "TD Milk": 4,
     "Cousins Lover": 5,
     "TD's for Harambe": 6,
-    "EAton Boutte": 7,
+    "Eaton Boutte": 7,
     "Tune Squad": 8,
     "Travis Swifties": 9,
     "Gage  Of Inches": 10,
