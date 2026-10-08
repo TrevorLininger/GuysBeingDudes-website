@@ -13,9 +13,9 @@ const season = 2026;
 
 const managerNames = {
     "Taco Corp": "Lake Johnson",
-    "Gage  Of Inches": "Gage Kiesling",
+    "Gage Of Inches": "Gage Kiesling",
     "Andy Reid Clock MGMT": "Jim Joyner",
-    "Cousins Lover": "Nick Yarbrough",
+    "Cousins  Lover": "Nick Yarbrough",
     "The Reid Rockets": "Austin Chisam",
     "Eaton Boutte": "Wes Summers",
     "TD's for Harambe": "Trevor Lininger",
@@ -32,14 +32,14 @@ const managerIds = {
     "Andy Reid Clock MGMT": 2,
     "Bo-n*rs": 3,
     "TD Milk": 4,
-    "Cousins Lover": 5,
+    "Cousins  Lover": 5,
     "TD's for Harambe": 6,
     "Eaton Boutte": 7,
     "Tune Squad": 8,
     "Travis Swifties": 9,
     "Gage  Of Inches": 10,
     "The Reid Rockets": 11,
-    "Silence of the Lamb": 12
+    "Silence Of The Lamb": 12
 };
 
 

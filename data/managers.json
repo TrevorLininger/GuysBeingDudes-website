@@ -30,7 +30,7 @@
     {
         "managerId": 5,
         "managerName": "Nick Yarbrough",
-        "teamName": "Cousins Lover",
+        "teamName": "Cousins  Lover",
         "image": "lego-heart.png",
         "active": true
     },
@@ -65,7 +65,7 @@
     {
         "managerId": 10,
         "managerName": "Gage Kiesling",
-        "teamName": "Gage of Inches",
+        "teamName": "Gage  Of Inches",
         "image": "lego-commish.png",
         "active": true
     },
@@ -79,7 +79,7 @@
     {
         "managerId": 12,
         "managerName": "Matt Bush",
-        "teamName": "Silence of the Lamb",
+        "teamName": "Silence Of The Lamb",
         "image": "lego-panthers.png",
         "active": true
     },

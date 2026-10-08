@@ -41,6 +41,8 @@ if (standingsContainer) {
             power => power.managerID === team.managerID
         );
 
+        console.log(team.name, "team id: ", team.managerID, "ranking: ", ranking);
+
         const row = document.createElement("div");
 
         row.className = "standing-row";
@@ -82,7 +84,7 @@ if (standingsContainer) {
     if (highlightsContainer) {
 
         const weekOne = highlights.find(
-            highlight => highlight.week === 1
+            highlight => highlight.week === 4
         );
 
         if (weekOne) {
